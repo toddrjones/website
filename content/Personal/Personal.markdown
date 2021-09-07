@@ -1,0 +1,12 @@
+---
+title: 'Personal'
+date: 2021-09-07T12:59:38-05:00
+draft: true
+meta_img: "image/image.png"
+tags:
+  - "one tag"
+  - "another tag"
+description: "Todd Jones"
+---
+
+I enjoy reading, photography, and trail running. I completed the Santa Rosa Ironman and the Boulder Ironman 70.3. 
