@@ -1,0 +1,10 @@
+---
+date: "2021-09-07"
+description: Website of Todd R. Jones, Assistant Professor of Economics at Mississippi State University. 
+menu: main
+title: Website of Todd R. Jones
+---
+
+I am an Assistant Professor of Economics at Mississippi State University with research interests in applied microeconomics, including economics of education. My research is published in journals including Journal of Public Economics and Journal of Human Resources. View my CV here. I enjoy making data visualizations; see some examples here.
+
+I am also an Annenberg Institute (Brown University) EdWorkingPapers Contributor. I received my Ph.D. in Economics from Cornell University and a Bachelors in Economics and Masters in Statistics at Utah State University. Before beginning my current position, I was a Postdoctoral Research Associate at Georgia State University's Georgia Policy Labs. 
