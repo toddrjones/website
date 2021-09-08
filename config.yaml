@@ -30,11 +30,11 @@ menu:
   primary:
     - identifier: research
       name: Research
-      url: research
+      url: /research
       weight: 1   
     - identifier: cv
       name: CV
-      url: cv/TJonesCV.pdf
+      url: /cv/TJonesCV.pdf
       weight: 2
     - identifier: dataviz
       name: Data Visualization
