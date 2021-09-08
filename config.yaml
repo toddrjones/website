@@ -2,7 +2,6 @@ baseurl: https://toddrjones.netlify.app/
 title: Todd Jones
 author: Todd Jones
 canonifyurls: yes
-relativeURLs: yes
 languagecode: en
 paginate: 3
 theme: hugo-renga
