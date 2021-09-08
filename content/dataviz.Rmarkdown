@@ -1,19 +1,19 @@
 ---
-title: 'Data Visualization'
-date: 2021-09-08T10:20:20-05:00
-draft: true
-slug: dataviz
-meta_img: "image/image.png"
+title: ''
+author: Todd R. Jones
+date: '2021-09-08'
+slug: []
+categories: []
 tags:
-  - "one tag"
-  - "another tag"
-description: "Todd Jones Data Visualization"
+  - one tag
+  - another tag
+meta_img: image/image.png
+description: Description for the page.
 ---
 
 I enjoy making data visualizations. Almost all use [R](https://www.r-project.org/)+[ggplot2](https://ggplot2.tidyverse.org/), and some use [gganimate](https://github.com/thomasp85/gganimate).  
 
 Additional visualizations can be found on my [Twitter page](https://twitter.com/toddrjones).
-
 ___________
 ![](/dataviz_files/1child_mort.gif)
 
