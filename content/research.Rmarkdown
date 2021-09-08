@@ -1,14 +1,16 @@
 ---
-title: 'Research'
-date: 2021-09-08T10:22:21-05:00
-draft: true
-slug: research
-meta_img: "image/image.png"
+title: research
+author: Todd R. Jones
+date: '2021-09-08'
+slug: []
+categories: []
 tags:
-  - "one tag"
-  - "another tag"
-description: "Description for the page."
+  - one tag
+  - another tag
+meta_img: image/image.png
+description: Description for the page.
 ---
+
 
 ## PUBLICATIONS
 "Maxed Out: The Human Capital Effects of Larger Student Loan Limits" (with [Jeffrey Denning](https://www.jeffdenning.com/)), Forthcoming, Journal of Human Resources. [Link to paper](http://jhr.uwpress.org/content/early/2019/11/07/jhr.56.4.0419-10167R1.abstract). [Link to IZA Working Paper 12239](https://www.iza.org/en/publications/dp/12239/maxed-out-the-effect-of-larger-student-loan-limits-on-borrowing-and-education-outcomes).
