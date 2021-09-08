@@ -30,7 +30,7 @@ menu:
   primary:
     - identifier: research
       name: Research
-      url: /research
+      url: /research/
       weight: 1   
     - identifier: cv
       name: CV
