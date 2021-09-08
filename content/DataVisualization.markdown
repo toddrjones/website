@@ -1,7 +1,6 @@
 ---
 title: 'Data Visualization'
 date: 2021-09-07T12:56:55-05:00
-draft: true
 meta_img: "image/image.png"
 tags:
   - "one tag"
@@ -16,7 +15,7 @@ ___________
 ![](/dataviz_files/1child_mort.gif)
 
 Child mortality, 1900-2016
- 
+
 ________
 
 ![](/dataviz_files/life_lgdp_v2.gif)
