@@ -16,7 +16,7 @@ ___________
 ![](/dataviz_files/1child_mort.gif)
 
 Child mortality, 1900-2016
-
+ 
 ________
 
 ![](/dataviz_files/life_lgdp_v2.gif)
