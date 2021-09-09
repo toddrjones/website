@@ -1,4 +1,5 @@
 baseurl: http://www.toddrjones.com/
+googleAnalytics: "UA-124811401-2"
 title: Todd Jones
 author: Todd Jones
 canonifyurls: yes
@@ -18,7 +19,7 @@ params:
   email: trj234@msstate.edu
   faviconfile: image/favicon.png
   #github: toddrjones
-  #highlightjs: yes
+  highlightjs: yes
   #linkedin: 
   #logofile: image/avatar.png
   pagetitle: Todd Jones
