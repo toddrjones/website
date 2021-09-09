@@ -5,9 +5,9 @@ canonifyurls: yes
 languagecode: en
 paginate: 3
 theme: hugo-renga
+googleAnalytics: UA-124811401-2
 enableEmoji: yes
 hasCJKLanguage: yes
-googleAnalytics: UA-124811401-2
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
