@@ -1,0 +1,20 @@
+---
+title: "test7"
+author: "Todd R. Jones"
+date: '2021-09-09'
+slug: []
+categories: []
+tags:
+- one tag
+- another tag
+meta_img: image/image.png
+description: Description for the page.
+---
+
+
+```{r message = F, warning = F, results='hide'}
+library(tidyverse)
+#devtools::install_github("")
+library(ggthemes)
+```
+
