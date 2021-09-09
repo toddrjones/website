@@ -1,11 +1,11 @@
 baseurl: http://www.toddrjones.com/
+googleAnalytics: 'UA-124811401-2'
 title: Todd Jones
 author: Todd Jones
 canonifyurls: yes
 languagecode: en
 paginate: 3
 theme: hugo-renga
-googleAnalytics: 'UA-124811401-2'
 enableEmoji: yes
 hasCJKLanguage: yes
 ignoreFiles:
