@@ -52,8 +52,3 @@ menu:
 #      name: Misc.
 #      url: /misc/
 #      weight: 6        
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
