@@ -1,5 +1,5 @@
 ---
-title: research
+title: ''
 author: Todd R. Jones
 date: '2021-09-08'
 slug: []
