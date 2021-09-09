@@ -1,4 +1,5 @@
-baseurl: http://www.toddrjones.com/
+#baseurl: http://www.toddrjones.com/
+baseurl: /
 title: Todd Jones
 author: Todd Jones
 canonifyurls: yes
