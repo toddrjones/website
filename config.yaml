@@ -1,5 +1,4 @@
 baseurl: http://www.toddrjones.com/
-googleAnalytics: "UA-124811401-2"
 title: Todd Jones
 author: Todd Jones
 canonifyurls: yes
@@ -8,6 +7,7 @@ paginate: 3
 theme: hugo-renga
 enableEmoji: yes
 hasCJKLanguage: yes
+googleAnalytics: "UA-124811401-2"
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -21,7 +21,7 @@ params:
   #github: toddrjones
   highlightjs: yes
   #linkedin: 
-  #logofile: image/avatar.png
+  logofile: image/avatar.png
   pagetitle: Todd Jones
   posts_navigation: yes
   progressively: no
