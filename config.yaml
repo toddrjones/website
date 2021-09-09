@@ -7,7 +7,6 @@ paginate: 3
 theme: hugo-renga
 enableEmoji: yes
 hasCJKLanguage: yes
-#googleAnalytics = "UA-124811401-2"
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
