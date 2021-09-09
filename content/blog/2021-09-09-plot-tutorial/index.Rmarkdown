@@ -1,7 +1,7 @@
 ---
-title: Plot Tutorial
+title: Animated Plot Tutorial
 author: Todd R. Jones
-date: '2021-09-08'
+date: '2021-09-09'
 slug: []
 categories: []
 tags:
@@ -13,7 +13,7 @@ description: Description for the page.
 
 We will first load the necessary packages:
 
-```{r echo=FALSE}
+```{r load-packages, message = F, warning = F, results='hide'}
 library(tidyverse)
 library(ggplot2)
 library(gganimate)
