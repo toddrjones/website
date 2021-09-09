@@ -1,5 +1,5 @@
 ---
-description: Jane Doe's blog
+description: Todd Jones blog
 menu: main
 title: Blog
 ---
