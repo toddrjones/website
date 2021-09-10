@@ -33,7 +33,8 @@ We will use three files, all available from https://www.gapminder.org/data/:
  
 3. Total Population---population_total.csv
     - Click on the Population indicator.
- 
+
+You can also download these files [here](https://github.com/toddrjones/website/tree/main/content/blog/2021-09-10-animated-plot-tutorial/files). 
 
 If necessary, set your working directory to where you project is located.
 
