@@ -1,11 +1,9 @@
 ---
-title: Animated Plot Tutorial
-author: Todd R. Jones
+title: "Animated Plot Tutorial"
+author: "Todd R. Jones"
 date: '2021-09-10'
 slug: []
 categories: []
-tags:
-  - r
 meta_img: image/image.png
 description: Animated plot tutorial
 ---
@@ -13,7 +11,7 @@ description: Animated plot tutorial
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
-<p>We will first load the necessary packages:</p>
+<p>First load the necessary packages:</p>
 <pre class="r"><code>library(tidyverse)
 library(ggplot2)
 library(gganimate)
@@ -24,17 +22,28 @@ library(gganimate)
 library(ggflags)
 library(ggthemes)</code></pre>
 <p>We will use three files, all available from <a href="https://www.gapminder.org/data/" class="uri">https://www.gapminder.org/data/</a>:</p>
-<p>#set your working directory here</p>
-<p>#setwd(“~/”)</p>
-<p>#relevant files are in the data folder in this github project.
-#They are from <a href="https://www.gapminder.org/data/" class="uri">https://www.gapminder.org/data/</a></p>
-<p>#you will also want to create a folder named output where the graphs will be saved</p>
+<ol style="list-style-type: decimal">
+<li>GDP—income_per_person_gdppercapita_ppp_inflation_adjusted.csv.
+<ul>
+<li>Click on the Income indicator.</li>
+</ul></li>
+<li>Child Mortality—child_mortality_0_5_year_olds_dying_per_1000_born.csv
+<ul>
+<li>Click on the Child Mortality indicator.</li>
+</ul></li>
+<li>Total Population—population_total.csv
+<ul>
+<li>Click on the Population indicator.</li>
+</ul></li>
+</ol>
+<p>If necessary, set your working directory to where you project is located.</p>
+<pre class="r"><code>setwd(&quot;~/&quot;)</code></pre>
+<p>Clean the data:</p>
 <pre class="r"><code>gdp_w &lt;- read.csv(&quot;files/income_per_person_gdppercapita_ppp_inflation_adjusted.csv&quot;)
 mort_w &lt;- read.csv(&quot;files/child_mortality_0_5_year_olds_dying_per_1000_born.csv&quot;)
 pop_w &lt;- read.csv(&quot;files/population_total.csv&quot;)
 
-#data begin in 1800 keep only 1900-2018
-
+#data begin in 1800. keep only 1900-2018
 gdp_w &lt;- gdp_w[,c(1, 102:218)]
 mort_w &lt;- mort_w[,c(1, 102:218)]
 pop_w &lt;- pop_w[,c(1, 102:218)]
@@ -53,7 +62,7 @@ pop$Year&lt;-substring(pop$Year, 2)
 data &lt;- merge(gdp, mort, by=c(&quot;country&quot;, &quot;Year&quot;))
 data &lt;- merge(data, pop, by=c(&quot;country&quot;, &quot;Year&quot;))
 
-#label variable
+#label year
 names(data)[2] &lt;- &quot;year&quot;
 
 #create log gdp variable
@@ -62,7 +71,7 @@ data$lgdp &lt;- log(data$gdp)
 #convert year to integer
 data$year &lt;- as.integer(data$year)
 
-#merge on continent - not used in current plot, but can be useful
+#merge on continent
 data$continent &lt;- countrycode(sourcevar = data[, &quot;country&quot;], 
                               origin = &quot;country.name&quot;, 
                               destination = &quot;continent&quot;)
@@ -75,192 +84,226 @@ data$country2 &lt;- as.character(data$country2)
 
 #don&#39;t consider Oceania
 data &lt;- data[data$continent!=&quot;Oceania&quot;,]</code></pre>
-<p>#0. barebones, just 1900
-plot1 &lt;- ggplot(data[data$year==1900,], aes(x=lgdp, y=mort)) +
-geom_point() +
-ylim(0, NA)
-ggsave(plot1, filename=“output/plot1.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#A. add axis labels
-plot &lt;- ggplot(data[data$year==1900,], aes(x=lgdp, y=mort)) +
-geom_point() +
-ylim(0, NA) +
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”)
-ggsave(plot, filename=“output/plot1a.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#B. change labeling of x-axis logs
+<ol start="0" style="list-style-type: decimal">
+<li>Barebones. We will just plot the year 1900.</li>
+</ol>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=lgdp, y=mort)) +
+  geom_point() + 
+  ylim(0, NA)
+#ggsave(plot, filename=&quot;output/plot1.png&quot;, width=10,height=5.5,units=&#39;in&#39;,dpi=200)
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1-1.png" width="672" /></p>
+<p>Note that you can save the static image using something like:</p>
+<pre class="r"><code>ggsave(plot, filename=&quot;output/plot1.png&quot;, width=10,height=5.5,units=&#39;in&#39;,dpi=200)</code></pre>
+<p>A. Add axis labels.</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=lgdp, y=mort)) +
+  geom_point() + 
+  ylim(0, NA) +
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;)
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1a-1.png" width="672" /></p>
+<p>B. Change the labeling of the x-axis (and plot gdp, not lgdp)</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
+  geom_point() + 
+  ylim(0, NA) +
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma)
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1b-1.png" width="672" /></p>
+<p>C. Change the size of the dot to reflect the country’s population</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
+  geom_point(aes(size=pop), show.legend=FALSE) + 
+  scale_size_continuous(range = c(4, 25)) +  
+  ylim(0, NA) +
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma)
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1c-1.png" width="672" /></p>
+<p>D. Change color of dots (to be the y-variable)</p>
+<pre class="r"><code>colourCount = length(unique(data$mort))
+getPalette = colorRampPalette(brewer.pal(9, &quot;Blues&quot;))
 plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
-geom_point() +
-ylim(0, NA) +
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma)
-ggsave(plot, filename=“output/plot1b.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#C. change size of dot to represent population
-plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop), show.legend=FALSE) +
-scale_size_continuous(range = c(4, 25)) +<br />
-ylim(0, NA) +
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma)
-ggsave(plot, filename=“output/plot1c.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#D. change color of dots (to be the y-variable)
-colourCount = length(unique(data<span class="math inline">\(mort)) getPalette = colorRampPalette(brewer.pal(9, &quot;Blues&quot;)) plot &lt;- ggplot(data[data\)</span>year==1900,], aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop, col=mort), show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-ylim(0, NA) +
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma)
-ggsave(plot, filename=“output/plot1d.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#E. add opacity
-plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-ylim(0, NA) +
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma)
-ggsave(plot, filename=“output/plot1e.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#F. change background from grey to white
-plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-ylim(0, NA) +
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
-theme(panel.background = element_rect(fill = ‘white’, colour = ‘white’))<br />
-ggsave(plot, filename=“output/plot1f.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#G. add in black axis lines
-plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-ylim(0, NA) +
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
-theme(panel.background = element_rect(fill = ‘white’, colour = ‘white’)) +
-theme(axis.line = element_line(size = .6, colour = “black”))<br />
-ggsave(plot, filename=“output/plot1g.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#H. make y axis start right at 0
-plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-expand_limits(y=0) +<br />
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
-theme(panel.background = element_rect(fill = ‘white’, colour = ‘white’)) +
-theme(axis.line = element_line(size = .6, colour = “black”))+
-scale_y_continuous(expand = c(0, 0))
-ggsave(plot, filename=“output/plot1h.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#I. increase size of labels
-plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-expand_limits(y=0) +<br />
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
-theme(panel.background = element_rect(fill = ‘white’, colour = ‘white’)) +
-theme(axis.line = element_line(size = .6, colour = “black”))+
-scale_y_continuous(expand = c(0, 0)) +
-theme(plot.title = element_text(size=22)) +
-theme(plot.caption = element_text(size=16)) +
-theme(plot.title = element_text(hjust = 0.5)) +
-theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-10)) +
-theme(axis.text=element_text(size=16), axis.title=element_text(size=16))<br />
-ggsave(plot, filename=“output/plot1i.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<p>#J. add caption
-plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-expand_limits(y=0) +<br />
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
-theme(panel.background = element_rect(fill = ‘white’, colour = ‘white’)) +
-theme(axis.line = element_line(size = .6, colour = “black”))+
-scale_y_continuous(expand = c(0, 0)) +
-theme(plot.title = element_text(size=22)) +
-theme(plot.caption = element_text(size=16)) +
-theme(plot.title = element_text(hjust = 0.5)) +
-theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-10)) +
-theme(axis.text=element_text(size=16), axis.title=element_text(size=16)) +
-labs(caption = “By <span class="citation">@toddrjones</span>. Source: Gapminder.”)<br />
-ggsave(plot, filename=“output/plot1j.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-<div id="section" class="section level15">
-<p class="heading"></p>
-<p>#K. animate
-plot &lt;- ggplot(data, aes(x=gdp, y=mort)) +
-geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-expand_limits(y=0) +<br />
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
-theme(panel.background = element_rect(fill = ‘white’, colour = ‘white’)) +
-theme(axis.line = element_line(size = .6, colour = “black”))+
-scale_y_continuous(expand = c(0, 0)) +
-theme(plot.title = element_text(size=22)) +
-theme(plot.caption = element_text(size=16)) +
-theme(plot.title = element_text(hjust = 0.5)) +
-theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-13)) +
-theme(axis.text=element_text(size=16), axis.title=element_text(size=16)) +
-labs(caption = “By <span class="citation">@toddrjones</span>. Source: Gapminder.”) +
-transition_time(year) +<br />
-labs(subtitle = paste(‘Year: {frame_time}’))<br />
-anim_save(“output/plot1k.gif”, plot, end_pause=8, width = 600, height = 400, duration=11, nframes=220)</p>
-<p>#L. facet
-plot2 &lt;- plot + facet_wrap(. ~ continent, ncol=2) + theme(strip.text = element_text(size=17))
-anim_save(“output/plot1l.gif”, plot2, end_pause=8, width = 600, height = 400, duration=11, nframes=220)</p>
-<p>#M. change dots to flags (still facet)
-plot &lt;- ggplot(data, aes(x=gdp, y=mort)) +
-geom_flag(aes(size=pop, country=country2), show.legend=FALSE) +
-scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +<br />
-scale_size_continuous(range = c(4, 25)) +<br />
-expand_limits(y=0) +<br />
-labs(x = “Log GDP Per Capita, PPP”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
-theme(panel.background = element_rect(fill = ‘white’, colour = ‘white’)) +
-theme(axis.line = element_line(size = .6, colour = “black”))+
-scale_y_continuous(expand = c(0, 0)) +
-theme(plot.title = element_text(size=22)) +
-theme(plot.caption = element_text(size=16)) +
-theme(plot.title = element_text(hjust = 0.5)) +
-theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-13)) +
-theme(axis.text=element_text(size=16), axis.title=element_text(size=16)) +
-labs(caption = “By <span class="citation">@toddrjones</span>. Source: Gapminder.”) +
-transition_time(year) +<br />
-labs(subtitle = paste(‘Year: {frame_time}’)) +
-facet_wrap(. ~ continent, ncol=2) + theme(strip.text = element_text(size=17))<br />
-anim_save(“output/plot1m.gif”, plot, end_pause=8, width = 600, height = 400, duration=11, nframes=220)</p>
-<p>#N. small multiples
-plot &lt;- ggplot(data[data$continent==“Europe”,], aes(x=year, y=mort)) +
-geom_point(size=1, show.legend=FALSE) +
-theme(panel.background = element_rect(fill = ‘white’, colour = ‘white’)) +
-theme(plot.title = element_text(size=22)) +
-theme(plot.caption = element_text(size=16)) +
-theme(plot.title = element_text(hjust = 0.5)) +
-theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-10)) +
-theme(axis.text=element_text(size=16), axis.title=element_text(size=16)) +<br />
-labs(x = “Year”,
-y = “0-5 Year Old Deaths/1000 Born”) +
-labs(caption = “By <span class="citation">@toddrjones</span>. Source: Gapminder.”) +
-ylim(0, NA) +
-facet_wrap(. ~ country) +
-scale_x_continuous(breaks=c(1900, 2000)) +
-theme(axis.text.x=element_text(size=rel(0.7))) +
-theme(axis.text.y=element_text(size=rel(0.7)))
-ggsave(plot, filename=“output/plot1n.png”, width=10,height=5.5,units=‘in’,dpi=200)</p>
-</div>
+  geom_point(aes(size=pop, col=mort), show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +  
+  scale_size_continuous(range = c(4, 25)) +  
+  ylim(0, NA) +
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma)
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1d-1.png" width="672" /></p>
+<p>E. Add opacity to the dots</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
+  geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +    
+  scale_size_continuous(range = c(4, 25)) +  
+  ylim(0, NA) +
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma)
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1e-1.png" width="672" /></p>
+<p>F. Change the background from grey to white</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
+  geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +    
+  scale_size_continuous(range = c(4, 25)) +  
+  ylim(0, NA) +
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
+  theme(panel.background = element_rect(fill = &#39;white&#39;, colour = &#39;white&#39;))   
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1f-1.png" width="672" /></p>
+<p>G. Add in black axis lines</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
+  geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +    
+  scale_size_continuous(range = c(4, 25)) +  
+  ylim(0, NA) +
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
+  theme(panel.background = element_rect(fill = &#39;white&#39;, colour = &#39;white&#39;)) +
+  theme(axis.line = element_line(size = .6, colour = &quot;black&quot;))   
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1g-1.png" width="672" /></p>
+<p>H. Make the y axis start right at 0</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
+  geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +    
+  scale_size_continuous(range = c(4, 25)) +  
+  expand_limits(y=0) +  
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
+  theme(panel.background = element_rect(fill = &#39;white&#39;, colour = &#39;white&#39;)) +
+  theme(axis.line = element_line(size = .6, colour = &quot;black&quot;))+
+  scale_y_continuous(expand = c(0, 0))
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1h-1.png" width="672" /></p>
+<p>I. Increase the size of the labels</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
+  geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +    
+  scale_size_continuous(range = c(4, 25)) +  
+  expand_limits(y=0) +  
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
+  theme(panel.background = element_rect(fill = &#39;white&#39;, colour = &#39;white&#39;)) +
+  theme(axis.line = element_line(size = .6, colour = &quot;black&quot;))+
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(plot.title = element_text(size=22)) +
+  theme(plot.caption = element_text(size=16)) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-10)) +
+  theme(axis.text=element_text(size=16), axis.title=element_text(size=16))   
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1i-1.png" width="672" /></p>
+<p>J. Add captions</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$year==1900,], aes(x=gdp, y=mort)) +
+  geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +    
+  scale_size_continuous(range = c(4, 25)) +  
+  expand_limits(y=0) +  
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
+  theme(panel.background = element_rect(fill = &#39;white&#39;, colour = &#39;white&#39;)) +
+  theme(axis.line = element_line(size = .6, colour = &quot;black&quot;))+
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(plot.title = element_text(size=22)) +
+  theme(plot.caption = element_text(size=16)) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-10)) +
+  theme(axis.text=element_text(size=16), axis.title=element_text(size=16)) +
+  labs(caption = &quot;By @toddrjones. Source: Gapminder. &quot;)   
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1j-1.png" width="672" /></p>
+<p>K. Animate</p>
+<pre class="r"><code>plot &lt;- ggplot(data, aes(x=gdp, y=mort)) +
+  geom_point(aes(size=pop, col=mort), alpha=.7, show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +    
+  scale_size_continuous(range = c(4, 25)) +  
+  expand_limits(y=0) +  
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
+  theme(panel.background = element_rect(fill = &#39;white&#39;, colour = &#39;white&#39;)) +
+  theme(axis.line = element_line(size = .6, colour = &quot;black&quot;))+
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(plot.title = element_text(size=22)) +
+  theme(plot.caption = element_text(size=16)) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-13)) +
+  theme(axis.text=element_text(size=16), axis.title=element_text(size=16)) +
+  labs(caption = &quot;By @toddrjones. Source: Gapminder. &quot;)  +
+  transition_time(year) +   
+  labs(subtitle = paste(&#39;Year: {frame_time}&#39;))  
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1k-1.gif" width="100%" height="100%" /></p>
+<p>Note that you can save the static image using something like:</p>
+<pre class="r"><code>anim_save(&quot;output/plot1l.gif&quot;, plot2, end_pause=8, width = 600, height = 400, duration=11, nframes=220)</code></pre>
+<p>L. Split into continents using facet</p>
+<pre class="r"><code>plot2 &lt;- plot + facet_wrap(. ~ continent, ncol=2) + theme(strip.text = element_text(size=17))
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1l-1.gif" width="100%" height="100%" /></p>
+<p>M. Change the dots to flags</p>
+<pre class="r"><code>plot &lt;- ggplot(data, aes(x=gdp, y=mort)) +
+  geom_flag(aes(size=pop, country=country2), show.legend=FALSE) + 
+  scale_colour_gradientn(colours=rev(getPalette(1444)[700:1444])) +    
+  scale_size_continuous(range = c(4, 25)) +  
+  expand_limits(y=0) +  
+  labs(x = &quot;Log GDP Per Capita, PPP&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  scale_x_log10(breaks=c(1000, 10000, 100000), label=scales::comma) +
+  theme(panel.background = element_rect(fill = &#39;white&#39;, colour = &#39;white&#39;)) +
+  theme(axis.line = element_line(size = .6, colour = &quot;black&quot;))+
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(plot.title = element_text(size=22)) +
+  theme(plot.caption = element_text(size=16)) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-13)) +
+  theme(axis.text=element_text(size=16), axis.title=element_text(size=16)) +
+  labs(caption = &quot;By @toddrjones. Source: Gapminder. &quot;)  +
+  transition_time(year) +   
+  labs(subtitle = paste(&#39;Year: {frame_time}&#39;)) +
+  facet_wrap(. ~ continent, ncol=2) + theme(strip.text = element_text(size=17))  
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1m-1.gif" width="100%" height="100%" /></p>
+<p>N. Go away from animation and instead display using small multiples</p>
+<pre class="r"><code>plot &lt;- ggplot(data[data$continent==&quot;Europe&quot;,], aes(x=year, y=mort)) +
+  geom_point(size=1, show.legend=FALSE) + 
+  theme(panel.background = element_rect(fill = &#39;white&#39;, colour = &#39;white&#39;)) +
+  theme(plot.title = element_text(size=22)) +
+  theme(plot.caption = element_text(size=16)) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-10)) +
+  theme(axis.text=element_text(size=16), axis.title=element_text(size=16)) +    
+  labs(x = &quot;Year&quot;,
+       y = &quot;0-5 Year Old Deaths/1000 Born&quot;) +
+  labs(caption = &quot;By @toddrjones. Source: Gapminder. &quot;) +
+  ylim(0, NA) +
+  facet_wrap(. ~ country) +
+  scale_x_continuous(breaks=c(1900, 2000)) +
+  theme(axis.text.x=element_text(size=rel(0.7))) +
+  theme(axis.text.y=element_text(size=rel(0.7)))
+
+plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/1n-1.png" width="100%" height="100%" /></p>
