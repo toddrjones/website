@@ -262,7 +262,7 @@ plot</code></pre>
 <pre class="r"><code>anim_save(&quot;output/plot1l.gif&quot;, plot2, end_pause=8, width = 600, height = 400, duration=11, nframes=220)</code></pre>
 <p>L. Split into continents using facet</p>
 <pre class="r"><code>plot2 &lt;- plot + facet_wrap(. ~ continent, ncol=2) + theme(strip.text = element_text(size=17))
-plot</code></pre>
+plot2</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/1l-1.gif" width="100%" height="100%" /></p>
 <p>M. Change the dots to flags</p>
 <pre class="r"><code>plot &lt;- ggplot(data, aes(x=gdp, y=mort)) +

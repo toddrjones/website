@@ -300,7 +300,7 @@ anim_save("output/plot1l.gif", plot2, end_pause=8, width = 600, height = 400, du
 L. Split into continents using facet
 ```{r 1l, message = F, warning = F, out.width="100%", out.height="100%"}
 plot2 <- plot + facet_wrap(. ~ continent, ncol=2) + theme(strip.text = element_text(size=17))
-plot
+plot2
 ```
 
 M. Change the dots to flags
