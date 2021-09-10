@@ -5,15 +5,15 @@ date: '2021-09-09'
 slug: []
 categories: []
 tags:
-  - one tag
-  - another tag
+  - r
+  - gganimate
 meta_img: image/image.png
 description: Description for the page.
 ---
 
 We will first load the necessary packages:
 
-```{r load-packages, message = F, warning = F, results='hide'}
+```{r, echo=FALSE, results='hide'}
 library(tidyverse)
 library(ggplot2)
 library(gganimate)
@@ -23,22 +23,29 @@ library(gganimate)
 #devtools::install_github("rensa/ggflags")
 library(ggflags)
 library(ggthemes)
-```
+``` 
+
+We will use three files, all available from https://www.gapminder.org/data/:
+
 
 
 #set your working directory here
+
 setwd("~/")
+
 
 #relevant files are in the data folder in this github project. 
 #They are from https://www.gapminder.org/data/ 
 
 #you will also want to create a folder named output where the graphs will be saved
 
-gdp_w <- read.csv("data/income_per_person_gdppercapita_ppp_inflation_adjusted.csv")
-mort_w <- read.csv("data/child_mortality_0_5_year_olds_dying_per_1000_born.csv")
-pop_w <- read.csv("data/population_total.csv")
+```{r}
+gdp_w <- read.csv("income_per_person_gdppercapita_ppp_inflation_adjusted.csv")
+mort_w <- read.csv("child_mortality_0_5_year_olds_dying_per_1000_born.csv")
+pop_w <- read.csv("population_total.csv")
 
 #data begin in 1800 keep only 1900-2018
+
 gdp_w <- gdp_w[,c(1, 102:218)]
 mort_w <- mort_w[,c(1, 102:218)]
 pop_w <- pop_w[,c(1, 102:218)]
@@ -67,15 +74,19 @@ data$lgdp <- log(data$gdp)
 data$year <- as.integer(data$year)
 
 #merge on continent - not used in current plot, but can be useful
-data$continent <- countrycode(sourcevar = data[, "country"], origin = "country.name", destination = "continent")
+data$continent <- countrycode(sourcevar = data[, "country"], 
+                              origin = "country.name", 
+                              destination = "continent")
 
 #make country 2 digit to work with ggflags
-data$country2 <- countrycode(as.character(data$country),"country.name","iso2c")
+data$country2 <- countrycode(as.character(data$country),
+                             "country.name","iso2c")
 data$country2 <- tolower(data$country2)
 data$country2 <- as.character(data$country2)
 
 #don't consider Oceania
 data <- data[data$continent!="Oceania",]
+```
 
 #0. barebones, just 1900
 plot1 <- ggplot(data[data$year==1900,], aes(x=lgdp, y=mort)) +
