@@ -37,7 +37,7 @@ menu:
       weight: 1   
     - identifier: cv
       name: CV
-      url: /cv/TJonesCV.pdf
+      url: /cv/
       weight: 2
     - identifier: dataviz
       name: Data Visualization
