@@ -15,261 +15,304 @@ I enjoy making data visualizations. Almost all use [R](https://www.r-project.org
 
 Additional visualizations can be found on my [Twitter page](https://twitter.com/toddrjones).
 ___________
-![](/dataviz_files/1child_mort.gif)
+
+<img src="/dataviz_files/1child_mort.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Child mortality, 1900-2016
-
 ________
 
-![](/dataviz_files/life_lgdp_v2.gif)
+<img src="/dataviz_files/life_lgdp_v2.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Life expectancy, 1800-2016.
 
 ________
 
-![](</dataviz_files/census pop.png>)
+<img src="/dataviz_files/census pop.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Percent change in resident population, 2020 vs. 2010.
 
 _________
 
-![](</dataviz_files/vaccine hesit_v3.png>)
+<img src="/dataviz_files/vaccine hesit_v3.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Estimated percentage of a county who are vaccine hesitant vs. 2020 Democratic presidential vote share.
 
 _________
 
-![](/dataviz_files/homes_v4.png)
+<img src="/dataviz_files/homes_v4.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Home price index, 1991-2020.
 
 _________
 
-![](/dataviz_files/babynames_girl.gif)
+<img src="/dataviz_files/babynames_girl.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
-![](/dataviz_files/babynames_boy.gif)
+<img src="/dataviz_files/babynames_boy.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Most popular girl and boy names by state, 1910-2019.
 
 _________
 
-![](/dataviz_files/fertility_gdp_flag_1800.gif)
+<img src="/dataviz_files/fertility_gdp_flag_1800.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Fertility (babies per woman), 1800-2016.
 
 _________
 
-![](/dataviz_files/international.gif)
+<img src="/dataviz_files/international.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 The number of international students studying in U.S. colleges each year, by country of origin, 1999-00 through 2018-19.
 
 __________
 
-![](/dataviz_files/colleges.gif)
+<img src="/dataviz_files/colleges.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 College openings, 1636–1979. 
 
 __________
 
-![](/dataviz_files/post_college.gif)
+<img src="/dataviz_files/post_college.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Post office (blue) and college (red) openings, 1750-1979.
 
 __________
-![](/dataviz_files/plot1m.gif>)
+
+<img src="/dataviz_files/plot1m.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Child mortality, 1900-2016.
 
 __________
-![](</dataviz_files/gamestop.png>)
+
+<img src="/dataviz_files/gamestop.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 GameStop stock price.
 
 __________
-![](</dataviz_files/Screen Shot 2020-09-26 at 9.05.35 PM.png>)
+
+<img src="/dataviz_files/Screen Shot 2020-09-26 at 9.05.35 PM.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Walmarts per million people. Darker=more. Source: Business Insider.
 
 __________
-![](</dataviz_files/econ_impact.png>)
+
+<img src="/dataviz_files/econ_impact.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Simple impact factor of 200 economics journals.
 
 __________
-![](</dataviz_files/spam.png>)
+
+<img src="/dataviz_files/spam.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Spam vs. legitimate email, average global emails per day.
 
 __________
-![](</dataviz_files/coal.png>)
+
+<img src="/dataviz_files/coal.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Coal production by state.
 
 __________
-![](</dataviz_files/women_phd.png>)
+
+<img src="/dataviz_files/women_phd.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 % of all PhDs earned by women over time
 
 __________
-![](</dataviz_files/tsa.png>)
+
+<img src="/dataviz_files/tsa.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Travelers passing through TSA checkpoints by day, where red is 2020 and black is 2019.
 
 __________
-![](</dataviz_files/utah.png>)
+
+<img src="/dataviz_files/utah.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Utah has more members of the Church of Jesus Christ of Latter-day Saints than all the states colored blue combined.
 
 _________
-![](</dataviz_files/health_life.gif>)
+
+<img src="/dataviz_files/health_life.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Life expectancy vs. health expenditure.
 
 __________
-![](</dataviz_files/animation.gif>)
+
+<img src="/dataviz_files/animation.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 State-to-state migration, where the red state is the sending state and darker=more sending. Uses ACS data.
 
 __________
-![](</dataviz_files/oktibbeha.jpeg>)
+
+<img src="/dataviz_files/oktibbeha.jpeg" width="100%" height="100%" style="display: block; margin: auto;" />
 
 How Oktibbeha County, Mississippi is connected to other counties, using Facebook SCI data.
 
 ___________
-![](</dataviz_files/bend pm25.png>)
+
+<img src="/dataviz_files/bend pm25.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Bend, Oregon air quality (PM 2.5), September 7-13, 2011-2020. There were fires in 2020.
 
 ___________
-![](</dataviz_files/fertility100.gif>)
+
+<img src="/dataviz_files/fertility100.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
  Falling fertility, 100+ years.
 
 ___________
-![](</dataviz_files/otter.png>)
+
+<img src="/dataviz_files/otter.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 The yellow states are the states in which it is legal to own an otter.
 
 ___________
-![](</dataviz_files/raccoon.png>)
+
+<img src="/dataviz_files/raccoon.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 The yellow states are the states in which it is legal to own a raccoon.
 
 ___________
-![](</dataviz_files/phd1.png>)
+
+<img src="/dataviz_files/phd1.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Where professors at top economics departments got their Ph.D.s.
 
 ___________
-![](</dataviz_files/phd2.png>)
+
+<img src="/dataviz_files/phd2.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Where professors at economics departments (right) got their Ph.D.s. (left).
 
 ___________
-![](</dataviz_files/publicschools.png>)
+
+<img src="/dataviz_files/publicschools.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 U.S. public schools
 
 ___________
-![](</dataviz_files/aea.png>)
+
+<img src="/dataviz_files/aea.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 AEA JOE job postings by week, 2018-19
 
 ___________
-![](</dataviz_files/walmart.gif>)
+
+<img src="/dataviz_files/walmart.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 The spread of Walmart
 
 ___________
-![](</dataviz_files/nationalparks_v2.gif>)
+
+<img src="/dataviz_files/nationalparks_v2.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Creation of U.S. national parks
 
 ___________
-![](</dataviz_files/tornado.gif>)
+
+<img src="/dataviz_files/tornado.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Tornadoes by year
 
 ___________
-![](</dataviz_files/4ed_flags.gif>)
+
+<img src="/dataviz_files/4ed_flags.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Women's education, 1970-2015
 
 ________
-![](</dataviz_files/mean_author.png>)
 
-![](</dataviz_files/number.png>)
+<img src="/dataviz_files/mean_author.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
-![](</dataviz_files/solo.png>)
+<img src="/dataviz_files/number.png" width="100%" height="100%" style="display: block; margin: auto;" />
+
+<img src="/dataviz_files/solo.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 NBER publications
 
 ___________
-![](</dataviz_files/birthspike>)
+
+<img src="/dataviz_files/birthspike.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 The above plot shows the total number of births by year, with each color representing a different age of mother. There is a persistent spike that occurs for mothers born in or close to 1946, presumably reflecting the increased number of individuals born in the baby boom. I used the NCHS Natality data, housed at NBER.
 
 ___________
-![](</dataviz_files/mortalityfertility.gif>)
+
+<img src="/dataviz_files/mortalityfertility.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Child mortality versus total fertility rate, where each dot is a country.
 
 ___________
-![](</dataviz_files/fertility.png>)
+
+<img src="/dataviz_files/fertility.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 U.S. fertility rate
 
 ___________
-![](</dataviz_files/target.gif>)
+
+<img src="/dataviz_files/target.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Target store openings
 
 ___________
-![](</dataviz_files/bezos.png>)
+
+<img src="/dataviz_files/bezos.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Comparisons. Source: Wikipedia. Bezos number does not reflect divorce.
 
 ___________
-![](</dataviz_files/nbahalftime.gif>)
+
+<img src="/dataviz_files/nbahalftime.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 NBA team win % by halftime point differential
 
 ___________
-![](</dataviz_files/lifeexp.gif>)
+
+<img src="/dataviz_files/lifeexp.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Life expectancy
 
 ___________
-![](</dataviz_files/nba_3.gif>)
+
+<img src="/dataviz_files/nba_3.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Fraction of NBA field goals that are 3 pointers
 
 ___________
-![](</dataviz_files/uscrime.gif>)
+
+<img src="/dataviz_files/uscrime.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 U.S. property crime over time
 
 ___________
-![](</dataviz_files/military.gif>)
+
+<img src="/dataviz_files/military.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Active-duty U.S. military by branch
 
 ___________
-![](</dataviz_files/innout.gif>)
+
+<img src="/dataviz_files/innout.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 In-N-Out openings
 
 ___________
-![](</dataviz_files/girlnamesevolution>)
+
+<img src="/dataviz_files/girlnamesevolution.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Plots of the evolution of the most popular U.S. baby girl names from 1880 to 2012, where the names shown are the top names in 1880. Data from SSA.
 
 ___________
-![](</dataviz_files/marathon.gif>)
+
+<img src="/dataviz_files/marathon.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Official marathon world records over time
 
 ___________
-![](</dataviz_files/mean_pop smaller.gif>)
+
+<img src="/dataviz_files/mean_pop smaller.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Mean center of the U.S. population
+
+
+
+
