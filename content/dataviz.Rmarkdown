@@ -15,261 +15,460 @@ I enjoy making data visualizations. Almost all use [R](https://www.r-project.org
 
 Additional visualizations can be found on my [Twitter page](https://twitter.com/toddrjones).
 ___________
-![](/dataviz_files/1child_mort.gif)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/1child_mort.gif", error=FALSE)
+```
 
 Child mortality, 1900-2016
-
 ________
 
-![](/dataviz_files/life_lgdp_v2.gif)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/life_lgdp_v2.gif", error=FALSE)
+```
 
 Life expectancy, 1800-2016.
 
 ________
 
-![](</dataviz_files/census pop.png>)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/census pop.png", error=FALSE)
+```
 
 Percent change in resident population, 2020 vs. 2010.
 
 _________
 
-![](</dataviz_files/vaccine hesit_v3.png>)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/vaccine hesit_v3.png", error=FALSE)
+```
 
 Estimated percentage of a county who are vaccine hesitant vs. 2020 Democratic presidential vote share.
 
 _________
 
-![](/dataviz_files/homes_v4.png)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/homes_v4.png", error=FALSE)
+```
 
 Home price index, 1991-2020.
 
 _________
 
-![](/dataviz_files/babynames_girl.gif)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/babynames_girl.gif", error=FALSE)
+```
 
-![](/dataviz_files/babynames_boy.gif)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/babynames_boy.gif", error=FALSE)
+```
 
 Most popular girl and boy names by state, 1910-2019.
 
 _________
 
-![](/dataviz_files/fertility_gdp_flag_1800.gif)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/fertility_gdp_flag_1800.gif", error=FALSE)
+```
 
 Fertility (babies per woman), 1800-2016.
 
 _________
 
-![](/dataviz_files/international.gif)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/international.gif", error=FALSE)
+```
 
 The number of international students studying in U.S. colleges each year, by country of origin, 1999-00 through 2018-19.
 
 __________
 
-![](/dataviz_files/colleges.gif)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/colleges.gif", error=FALSE)
+```
 
 College openings, 1636–1979. 
 
 __________
 
-![](/dataviz_files/post_college.gif)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/post_college.gif", error=FALSE)
+```
 
 Post office (blue) and college (red) openings, 1750-1979.
 
 __________
-![](/dataviz_files/plot1m.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/plot1m.gif", error=FALSE)
+```
 
 Child mortality, 1900-2016.
 
 __________
-![](</dataviz_files/gamestop.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/gamestop.png", error=FALSE)
+```
 
 GameStop stock price.
 
 __________
-![](</dataviz_files/Screen Shot 2020-09-26 at 9.05.35 PM.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/Screen Shot 2020-09-26 at 9.05.35 PM.png", error=FALSE)
+```
 
 Walmarts per million people. Darker=more. Source: Business Insider.
 
 __________
-![](</dataviz_files/econ_impact.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/econ_impact.png", error=FALSE)
+```
 
 Simple impact factor of 200 economics journals.
 
 __________
-![](</dataviz_files/spam.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/spam.png", error=FALSE)
+```
 
 Spam vs. legitimate email, average global emails per day.
 
 __________
-![](</dataviz_files/coal.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/coal.png", error=FALSE)
+```
 
 Coal production by state.
 
 __________
-![](</dataviz_files/women_phd.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/women_phd.png", error=FALSE)
+```
 
 % of all PhDs earned by women over time
 
 __________
-![](</dataviz_files/tsa.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/tsa.png", error=FALSE)
+```
 
 Travelers passing through TSA checkpoints by day, where red is 2020 and black is 2019.
 
 __________
-![](</dataviz_files/utah.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/utah.png", error=FALSE)
+```
 
 Utah has more members of the Church of Jesus Christ of Latter-day Saints than all the states colored blue combined.
 
 _________
-![](</dataviz_files/health_life.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/health_life.gif", error=FALSE)
+```
 
 Life expectancy vs. health expenditure.
 
 __________
-![](</dataviz_files/animation.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/animation.gif", error=FALSE)
+```
 
 State-to-state migration, where the red state is the sending state and darker=more sending. Uses ACS data.
 
 __________
-![](</dataviz_files/oktibbeha.jpeg>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/oktibbeha.jpeg", error=FALSE)
+```
 
 How Oktibbeha County, Mississippi is connected to other counties, using Facebook SCI data.
 
 ___________
-![](</dataviz_files/bend pm25.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/bend pm25.png", error=FALSE)
+```
 
 Bend, Oregon air quality (PM 2.5), September 7-13, 2011-2020. There were fires in 2020.
 
 ___________
-![](</dataviz_files/fertility100.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/fertility100.gif", error=FALSE)
+```
 
  Falling fertility, 100+ years.
 
 ___________
-![](</dataviz_files/otter.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/otter.png", error=FALSE)
+```
 
 The yellow states are the states in which it is legal to own an otter.
 
 ___________
-![](</dataviz_files/raccoon.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/raccoon.png", error=FALSE)
+```
 
 The yellow states are the states in which it is legal to own a raccoon.
 
 ___________
-![](</dataviz_files/phd1.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/phd1.png", error=FALSE)
+```
 
 Where professors at top economics departments got their Ph.D.s.
 
 ___________
-![](</dataviz_files/phd2.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/phd2.png", error=FALSE)
+```
 
 Where professors at economics departments (right) got their Ph.D.s. (left).
 
 ___________
-![](</dataviz_files/publicschools.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/publicschools.png", error=FALSE)
+```
 
 U.S. public schools
 
 ___________
-![](</dataviz_files/aea.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/aea.png", error=FALSE)
+```
 
 AEA JOE job postings by week, 2018-19
 
 ___________
-![](</dataviz_files/walmart.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/walmart.gif", error=FALSE)
+```
 
 The spread of Walmart
 
 ___________
-![](</dataviz_files/nationalparks_v2.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/nationalparks_v2.gif", error=FALSE)
+```
 
 Creation of U.S. national parks
 
 ___________
-![](</dataviz_files/tornado.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/tornado.gif", error=FALSE)
+```
 
 Tornadoes by year
 
 ___________
-![](</dataviz_files/4ed_flags.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/4ed_flags.gif", error=FALSE)
+```
 
 Women's education, 1970-2015
 
 ________
-![](</dataviz_files/mean_author.png>)
 
-![](</dataviz_files/number.png>)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/mean_author.png", error=FALSE)
+```
 
-![](</dataviz_files/solo.png>)
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/number.png", error=FALSE)
+```
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/solo.png", error=FALSE)
+```
 
 NBER publications
 
 ___________
-![](</dataviz_files/birthspike>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/birthspike.png", error=FALSE)
+```
 
 The above plot shows the total number of births by year, with each color representing a different age of mother. There is a persistent spike that occurs for mothers born in or close to 1946, presumably reflecting the increased number of individuals born in the baby boom. I used the NCHS Natality data, housed at NBER.
 
 ___________
-![](</dataviz_files/mortalityfertility.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/mortalityfertility.gif", error=FALSE)
+```
 
 Child mortality versus total fertility rate, where each dot is a country.
 
 ___________
-![](</dataviz_files/fertility.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/fertility.png", error=FALSE)
+```
 
 U.S. fertility rate
 
 ___________
-![](</dataviz_files/target.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/target.gif", error=FALSE)
+```
 
 Target store openings
 
 ___________
-![](</dataviz_files/bezos.png>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/bezos.png", error=FALSE)
+```
 
 Comparisons. Source: Wikipedia. Bezos number does not reflect divorce.
 
 ___________
-![](</dataviz_files/nbahalftime.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/nbahalftime.gif", error=FALSE)
+```
 
 NBA team win % by halftime point differential
 
 ___________
-![](</dataviz_files/lifeexp.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/lifeexp.gif", error=FALSE)
+```
 
 Life expectancy
 
 ___________
-![](</dataviz_files/nba_3.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/nba_3.gif", error=FALSE)
+```
 
 Fraction of NBA field goals that are 3 pointers
 
 ___________
-![](</dataviz_files/uscrime.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/uscrime.gif", error=FALSE)
+```
 
 U.S. property crime over time
 
 ___________
-![](</dataviz_files/military.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/military.gif", error=FALSE)
+```
 
 Active-duty U.S. military by branch
 
 ___________
-![](</dataviz_files/innout.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/innout.gif", error=FALSE)
+```
 
 In-N-Out openings
 
 ___________
-![](</dataviz_files/girlnamesevolution>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/girlnamesevolution.png", error=FALSE)
+```
 
 Plots of the evolution of the most popular U.S. baby girl names from 1880 to 2012, where the names shown are the top names in 1880. Data from SSA.
 
 ___________
-![](</dataviz_files/marathon.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/marathon.gif", error=FALSE)
+```
 
 Official marathon world records over time
 
 ___________
-![](</dataviz_files/mean_pop smaller.gif>)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
+library(knitr)
+include_graphics("/dataviz_files/mean_pop smaller.gif", error=FALSE)
+```
 
 Mean center of the U.S. population
+
+
+
+
