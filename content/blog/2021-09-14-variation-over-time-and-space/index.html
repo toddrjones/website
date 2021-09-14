@@ -14,7 +14,9 @@ description: Description for the page.
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
-<p>Sometimes it is useful to show variation, events, etc. over time and space. A common way to do this is with a static map where the coloring of the dots correspond to time. Let’s say we want to show when colleges and universities opened in the U.S. We might show this as follows:</p>
+<p>Sometimes it is useful to show variation, events, etc. over time and space, perhaps for a departmental talk or conference presentation. A common way to do this is with a static map where the coloring of the dots correspond to time. Let’s say we want to show when and where colleges and universities opened in the U.S. This might look something like:</p>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/firstplot-1.png" width="100%" height="100%" /></p>
+<p>This is OK, but because there are so many, some of the earlier schools get covered over by the later. It is also jumbled and can be hard to see what is going on.</p>
 <p>Another way to do this, and this focus of this post, is to create an animated map. In some cases, this is easier for the audience to quickly understand. What follows is an example of how to do this using R code.</p>
 <p>First load the necessary packages:</p>
 <pre class="r"><code>library(tidyverse)
@@ -24,8 +26,8 @@ library(gganimate)
 library(ggthemes)</code></pre>
 <p>Set your working directory as applicable.</p>
 <pre class="r"><code>setwd(&quot;/&quot;)</code></pre>
-<p>We will use two data files from IPEDS. First is the Institutional Characteristics file from 1980 (I am using this year because it has the year the university started.) You can download this <a href="https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7">here</a> by selecting “1980” and “Institutional Characteristics. Download the”IC 1980 Data File."</p>
-<p>The second is the 2019 Institutional Characteristics file (this has latitude and longitude; analysis will be limited to institutions in this file). Download this from the above link by selecting “2019” and “Institutional Characteristics.” We want the “HD 2019” data file. In what follows, the files are saved in the “files” folder.</p>
+<p>We will use two data files from IPEDS at this <a href="https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7">link</a>. First is the Institutional Characteristics file from 1980 (I am using this year because it has the year the university started.) Select “1980” and “Institutional Characteristics” and download the “IC 1980” data file.</p>
+<p>The second is the 2019 Institutional Characteristics file (this has latitude and longitude; analysis will be limited to institutions in this file). Download this from the above link by selecting “2019” and “Institutional Characteristics.” We want the “HD 2019” data file. You can also download them <a href="https://github.com/toddrjones/website/tree/main/content/blog/2021-09-14-variation-over-time-and-space/files">here</a>. In what follows, the files are saved in the “files” folder.</p>
 <p>Load the data, merge, clean, and make a few sample restrictions:</p>
 <pre class="r"><code>#read in data
 data1980 &lt;- read.csv(&quot;files/ic1980.csv&quot;)
@@ -45,7 +47,8 @@ data &lt;- data %&gt;% mutate(var1=ifelse(INSTCAT==1|INSTCAT==2, 1, 0))
 data &lt;- data %&gt;% filter(control!=0)
 
 #keep selected columns
-data &lt;- data[,c(&quot;INSTNM&quot;, &quot;unitid&quot;, &quot;estmoyr&quot;, &quot;LONGITUD&quot;, &quot;LATITUDE&quot;, &quot;control&quot;)]
+data &lt;- data[,c(&quot;INSTNM&quot;, &quot;unitid&quot;, &quot;estmoyr&quot;,
+                &quot;LONGITUD&quot;, &quot;LATITUDE&quot;, &quot;control&quot;)]
 
 #change a couple variable names
 names(data)[4] &lt;- &quot;longitude&quot;
@@ -68,19 +71,23 @@ data &lt;- filter(data, data$latitude &gt;23.5 &amp; data$latitude &lt; 49.5)
 #change the data type of a couple of variables
 data$year &lt;- as.integer(data$year)
 data$control &lt;- as.factor(data$control)</code></pre>
-<p>#ORIGINAL VERSION
-map &lt;- ggplot(data, aes(x = longitude, y = latitude, group=unitid)) +
-borders(“state”, colour = “gray76”, fill = “gray97”) +
-theme_map() +
-#coord_fixed() +
-geom_point(alpha = .5, colour = “black”, size=1, show.legend = FALSE) +
-labs(caption = “Data IPEDS. As of 1980. Only BA+ schools from 2019 IPEDS with geo data. By <span class="citation">@toddrjones</span>.”)+
-theme(plot.title = element_text(hjust = 0.5)) +
-theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-4)) +
-transition_time(year) +
-labs(subtitle = paste(‘Year: {frame_time}’)) +<br />
-shadow_mark(colour = ‘#0072CE’, size=4, alpha=.6) +
-#enter_fade() +
-theme(plot.title = element_text(size=16)) +
-theme(plot.caption = element_text(size=8))</p>
-<p>anim_save(“colleges.gif”, map, end_pause=15, width = 600, height = 400, duration=17, nframes=400)</p>
+<p>We can then animate the plot. The <a href="https://gganimate.com/"><code>gganimate</code></a> package will do the heavy lifting. The <code>transition_time</code>, <code>shadow_mark</code>, and <code>labs</code> code are all related to <code>gganimate</code>. The way it works is that it shows the college openings for each year separately (governed by <code>transition_time</code>). It then keeps the dot there (with <code>shadow_mark</code>). The label comes from <code>labs</code>, where <code>frame_time</code> is the year.</p>
+<pre class="r"><code>map &lt;- ggplot(data, aes(x = longitude, y = latitude, group=unitid)) +
+    borders(&quot;state&quot;, colour = &quot;gray76&quot;, fill = &quot;gray97&quot;) +
+    theme_map() +
+    geom_point(alpha = .5, colour = &quot;black&quot;, size=1, show.legend = FALSE)   +
+    labs(caption = &quot;Data: IPEDS. As of 1980. Only BA+ schools from 2019 IPEDS with geo data. By @toddrjones.&quot;)+
+    theme(plot.title = element_text(hjust = 0.5)) +
+    theme(plot.subtitle = element_text(size=16, hjust = 0.5, vjust=-4)) +
+    transition_time(year) + 
+    labs(subtitle = paste(&#39;Year: {frame_time}&#39;)) +  
+    shadow_mark(colour = &#39;#0072CE&#39;, size=4, alpha=.6) +
+    theme(plot.title = element_text(size=16)) +
+    theme(plot.caption = element_text(size=8))
+    
+#Note that you can save as a .gif file by doing something along the lines of:
+#anim_save(&quot;colleges.gif&quot;, map, end_pause=15, width = 600, 
+#     height = 400, duration=17, nframes=400)
+
+map</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/mainplot-1.gif" width="100%" height="100%" /></p>
