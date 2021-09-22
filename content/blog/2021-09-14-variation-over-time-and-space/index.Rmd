@@ -5,8 +5,8 @@ date: '2021-09-14'
 slug: []
 categories: []
 tags:
-  - one tag
-  - another tag
+  - gganimate
+  - data visualization
 meta_img: image/image.png
 description: Description for the page.
 ---
