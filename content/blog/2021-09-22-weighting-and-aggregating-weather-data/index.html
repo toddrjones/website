@@ -1,0 +1,36 @@
+---
+title: Weighting and Aggregating Weather Data
+author: Todd R. Jones
+date: '2021-09-22'
+slug: []
+categories: []
+tags:
+  - prism
+  - weather data
+meta_img: image/image.png
+description: Description for the page.
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>In this post, we will learn how to aggregate fine-grained daily weather data to larger geographies, while weighting by population. We’ll do this for multiple days, and we’ll use parallel processing methods to speed things up, as it can take a long time. We’ll also create an animated graph with some of the resulting data.</p>
+<p>In particular, we will aggregate <a href="https://prism.oregonstate.edu/">PRISM data</a>, which gives estimated temperature and precipitation (and other things) at a 4km resolution, to the state level. We will weight by population using data from the <a href="https://sedac.ciesin.columbia.edu/data/set/usgrid-summary-file1-2000/data-download">Census/SEDAC</a>, which comes in approximately a 1km resolution. Much of the credit for what follows goes to Patrick Baylis and his <a href="https://www.patrickbaylis.com/blog/2021-08-15-pop-weighted-weather/">post</a>, from which I base a large portion of what will come. He also gives a good explanation for why one might want to weight weather data by population.</p>
+<p>First, let’s load a bunch of packages:</p>
+<pre class="r"><code>library(gganimate)
+library(prism)
+library(tidyverse) 
+library(exactextractr)
+library(raster)
+library(future)
+options(future.rng.onMisuse=&quot;ignore&quot;)
+library(purrr)
+library(furrr)
+library(ggthemes)
+library(lubridate)
+library(beepr)</code></pre>
+<p>Next, we will download PRISM data using the <code>prism</code> package. To do so, we need to first set the directory we want to store the data in; you many need to manually create the folder. We then specify the variable we want (“ppt”, “tmean”, “tmin”, “tmax”, “tdmean”, “vpdmin”, or “vpdmax”) and the date range. We will choose the max temperature for the first ten days of March 2020. Note that these files can get pretty big pretty quickly, so we are only looking at a few days.</p>
+<pre class="r"><code>prism_set_dl_dir(&quot;data/prism/tmax&quot;)
+get_prism_dailys(type = &quot;tmean&quot;, minDate = &quot;2020-03-01&quot;,
+                 maxDate = &quot;2020-03-10&quot;, keepZip=FALSE)</code></pre>
+<p>Caveat about which day to use - see other baylis blog post</p>
