@@ -34,7 +34,7 @@ description: Description for the page.
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*).
 
 ## WORKS IN PROGRESS
-"Weather and Innovation (with Bobby Chung and Jeffrey Swigert)."
+"Weather and Innovation" (with Bobby Chung and Jeffrey Swigert).
 
 "Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)). 
 
