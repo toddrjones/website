@@ -34,8 +34,6 @@ description: Description for the page.
 "The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324).
 
 ## WORKS IN PROGRESS
-"Weather and Innovation" (with Bobby Chung and Jeffrey Swigert).
-
 "Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)). 
 
 "Changes in Parental Gender Preference in the United States: Evidence from 1830-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)).
