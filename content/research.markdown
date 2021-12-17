@@ -31,7 +31,7 @@ description: Description for the page.
 ## WORKING PAPERS
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). *Submitted.*
 
-"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324).
+"The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324). *Submitted.*
 
 ## WORKS IN PROGRESS
 "Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)). 
