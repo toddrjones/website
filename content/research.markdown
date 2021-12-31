@@ -13,9 +13,9 @@ description: Description for the page.
 
 
 ## PUBLICATIONS
-"Maxed Out: The Human Capital Effects of Larger Student Loan Limits" (with [Jeffrey Denning](https://www.jeffdenning.com/)), Forthcoming, Journal of Human Resources. [Link to paper](http://jhr.uwpress.org/content/early/2019/11/07/jhr.56.4.0419-10167R1.abstract). [Link to IZA Working Paper 12239](https://www.iza.org/en/publications/dp/12239/maxed-out-the-effect-of-larger-student-loan-limits-on-borrowing-and-education-outcomes).
-
 "The Effects of Financial Aid Loss on Student Persistence and Graduation: A Multi-Dimensional Regression Discontinuity Approach" (with [Daniel Kreisman](http://www.dkreisman.com/), [Ross Rubenstein](https://aysps.gsu.edu/profile/ross-rubenstein/), [Cynthia Searcy](https://aysps.gsu.edu/profile/cynthia-searcy/), and [Rachana Bhatt](https://www.usg.edu/cassie/about/staff_members)), Forthcoming, Education Finance and Policy. [Link to paper](https://direct.mit.edu/edfp/article/doi/10.1162/edfp_a_00337/97143/The-Effects-of-Financial-Aid-Loss-on-Persistence). [Link to IZA Working Paper 13849](https://www.iza.org/publications/dp/13849/the-effects-of-financial-aid-loss-on-persistence-and-graduation-a-multi-dimensional-regression-discontinuity-approach).
+
+"Maxed Out: The Human Capital Effects of Larger Student Loan Limits" (with [Jeffrey Denning](https://www.jeffdenning.com/)), Journal of Human Resources, 2021, 56 (4), 1113-1140. [Link to paper](http://jhr.uwpress.org/content/56/4/1113.short). [Link to IZA Working Paper 12239](https://www.iza.org/en/publications/dp/12239/maxed-out-the-effect-of-larger-student-loan-limits-on-borrowing-and-education-outcomes).
 
 "College Credit on the Table? Advanced Placement Course and Exam Taking" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home)* and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)). 2021, Economics of Education Review, Volume 84, 102155. [Link to paper](https://www.sciencedirect.com/science/article/pii/S0272775721000741). [Link to IZA Working Paper 14652](https://www.iza.org/de/publications/dp/14652/college-credit-on-the-table-advanced-placement-course-and-exam-taking).
 
@@ -29,13 +29,11 @@ description: Description for the page.
 * Developed [SigTree](https://cran.r-project.org/web/packages/SigTree/index.html), the corresponding R package (with [John Stevens](https://math.usu.edu/jrstevens/)) 
 
 ## WORKING PAPERS
-"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324).
+"The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324). *Submitted.*
 
-"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*).
+"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). *Submitted.*
 
 ## WORKS IN PROGRESS
-"Weather and Innovation" (with Bobby Chung and Jeffrey Swigert).
-
 "Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)). 
 
 "Changes in Parental Gender Preference in the United States: Evidence from 1830-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)).
