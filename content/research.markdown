@@ -29,9 +29,9 @@ description: Description for the page.
 * Developed [SigTree](https://cran.r-project.org/web/packages/SigTree/index.html), the corresponding R package (with [John Stevens](https://math.usu.edu/jrstevens/)) 
 
 ## WORKING PAPERS
-"The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324). *Submitted.*
-
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). *Submitted.*
+
+"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324).
 
 ## WORKS IN PROGRESS
 "Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)). 
@@ -41,8 +41,6 @@ description: Description for the page.
 "First Generation Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
 
 "Early Detection of Child Maltreatment and Georgia Pre-K" (with [Rodrigo Aranda Balcazar](https://raranda.com/) and [Thomas Goldring](https://tgoldring.com/)).
-
-"The Graduate School Origins of Faculty Across Disciplines" (with [Will Davis](https://daviseconomics.com/) and [Haoyang Xiong](https://www.haoyangxiong.com/home)*).
 
 ## OTHER WRITING
 "Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
