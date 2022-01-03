@@ -29,9 +29,14 @@ description: Description for the page.
 * Developed [SigTree](https://cran.r-project.org/web/packages/SigTree/index.html), the corresponding R package (with [John Stevens](https://math.usu.edu/jrstevens/)) 
 
 ## WORKING PAPERS
+<<<<<<< HEAD
 "The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324). *Submitted.*
 
+=======
+>>>>>>> acf57d1eeef90b8131439e2b49c70aab60f5e1f6
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). *Submitted.*
+
+"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324).
 
 ## WORKS IN PROGRESS
 "Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)). 
