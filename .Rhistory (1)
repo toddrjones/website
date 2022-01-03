@@ -92,6 +92,7 @@ blogdown:::preview_site(startup = TRUE)
 blogdown:::preview_site(startup = TRUE)
 blogdown:::preview_site(startup = TRUE)
 blogdown:::preview_site(startup = TRUE)
+<<<<<<< HEAD
 install.packages("blogdown")
 install.packages("blogdown")
 install.packages("blogdown")
@@ -100,3 +101,14 @@ install.packages("blogdown")
 blogdown:::preview_site(startup = TRUE)
 blogdown:::preview_site(startup = TRUE)
 blogdown:::preview_site(startup = TRUE)
+=======
+<<<<<<< HEAD
+blogdown:::preview_site(startup = TRUE)
+blogdown:::preview_site(startup = TRUE)
+blogdown:::preview_site(startup = TRUE)
+blogdown:::preview_site(startup = TRUE)
+blogdown:::preview_site(startup = TRUE)
+blogdown:::preview_site(startup = TRUE)
+=======
+>>>>>>> e509195ff96044659e109b171be1d6b80ffc9c14
+>>>>>>> acf57d1eeef90b8131439e2b49c70aab60f5e1f6
