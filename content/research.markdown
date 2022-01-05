@@ -30,12 +30,12 @@ description: Description for the page.
 
 ## WORKING PAPERS
 
-"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to EdWorkingPaper 20-324](https://www.edworkingpapers.com/ai20-324). *Submitted.*
+"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to IZA Working Paper 14965](https://docs.iza.org/dp14965.pdf). *Submitted.*
 
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). *Submitted.*
 
 ## WORKS IN PROGRESS
-"Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)). 
+"Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)).  
 
 "Changes in Parental Gender Preference in the United States: Evidence from 1830-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)).
 
