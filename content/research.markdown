@@ -35,9 +35,14 @@ description: Description for the page.
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). *Submitted.*
 
 ## WORKS IN PROGRESS
-"Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)).  
 
-"Changes in Parental Gender Preference in the United States: Evidence from 1830-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joe Price](https://economics.byu.edu/directory/joseph-p-price)).
+"Does Education Reduce Mortality Evidence from college Establishments" (with [Michael Andrews](https://sites.google.com/site/michaeljeffreyandrews/), [Joseph Price](https://economics.byu.edu/directory/joseph-p-price), [Lauren Russell](https://web.sas.upenn.edu/lrus/), and [Daniel Sacks](https://danielwsacks.com/)).
+
+"Crime and School" (with [Ezra Karger](https://ezrakarger.com/)).
+
+"Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
+
+"Changes in Parental Gender Preference in the United States: Evidence from 1850-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).
 
 "First Generation Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
 
