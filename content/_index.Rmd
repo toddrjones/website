@@ -5,7 +5,7 @@ menu: main
 title: Website of Todd R. Jones
 ---
 
-I am an Assistant Professor of Economics at Mississippi State University, an [IZA](https://www.iza.org/) Research Affiliate, and an Annenberg Institute (Brown University) [EdWorkingPapers](https://edworkingpapers.com/) Contributor. My research interests are in applied microeconomics, including education, labor, crime, history, and health. My research is published in journals including Journal of Public Economics, Journal of Human Resources, and Economics of Education Review. My CV is available [here](/cv/TJonesCV.pdf).
+I am an Assistant Professor of Economics at Mississippi State University, an [IZA](https://www.iza.org/) Research Affiliate, and an Annenberg Institute (Brown University) [EdWorkingPapers](https://edworkingpapers.com/) Contributor. My research interests are in applied microeconomics, including the economics of education. My research is published in journals including the Journal of Human Resources, Journal of Public Economics, and Economics of Education Review. My CV is available [here](/cv/TJonesCV.pdf).
 
 I received a Ph.D. in Economics from Cornell University, and a Bachelors in Economics and Masters in Statistics from Utah State University. Before beginning my current position, I was a Postdoctoral Research Associate at Georgia State University's [Georgia Policy Labs](https://gpl.gsu.edu/). I enjoy making data visualizations; see some examples [here](/dataviz/).
 

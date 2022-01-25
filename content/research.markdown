@@ -42,11 +42,15 @@ description: Description for the page.
 
 "Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
 
+"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
+
+"Early Detection of Child Maltreatment in Pre-Kindergarten" (with [Rodrigo Aranda Balcazar](https://raranda.com/) and [Thomas Goldring](https://tgoldring.com/)).
+
 "Changes in Parental Gender Preference in the United States: Evidence from 1850-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).
 
-"First Generation Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
+"Crime and Power Outages" (with [Bobby Chung](https://sites.google.com/view/bobbywchung)).
 
-"Early Detection of Child Maltreatment and Georgia Pre-K" (with [Rodrigo Aranda Balcazar](https://raranda.com/) and [Thomas Goldring](https://tgoldring.com/)).
+"Weather and the Intertemporal Substitution of Exercise Time" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
 
 ## OTHER WRITING
 "Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
