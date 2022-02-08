@@ -40,7 +40,7 @@ description: Description for the page.
 
 "Crime and School" (with [Ezra Karger](https://ezrakarger.com/)).
 
-"Education and Longevity in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
+"Education in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
 
