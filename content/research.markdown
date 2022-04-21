@@ -30,15 +30,15 @@ description: Description for the page.
 
 ## WORKING PAPERS
 
-"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to IZA Working Paper 14965](https://docs.iza.org/dp14965.pdf). *Submitted.*
+"Crime and School" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf)
+
+"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to IZA Working Paper 14965](https://docs.iza.org/dp14965.pdf). 
 
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). *Submitted.*
 
 ## WORKS IN PROGRESS
 
 "Does Education Reduce Mortality Evidence from College Establishments" (with [Michael Andrews](https://sites.google.com/site/michaeljeffreyandrews/), [Joseph Price](https://economics.byu.edu/directory/joseph-p-price), [Lauren Russell](https://web.sas.upenn.edu/lrus/), and [Daniel Sacks](https://danielwsacks.com/)).
-
-"Crime and School" (with [Ezra Karger](https://ezrakarger.com/)).
 
 "Education in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
 
