@@ -32,9 +32,10 @@ description: Description for the page.
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf)
 
+"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). Revise and resubmit at Journal of Empirical Finance.
+
 "The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to IZA Working Paper 14965](https://docs.iza.org/dp14965.pdf). 
 
-"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). *Submitted.*
 
 ## WORKS IN PROGRESS
 
@@ -44,13 +45,9 @@ description: Description for the page.
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
 
-"Early Detection of Child Maltreatment in Pre-Kindergarten" (with [Rodrigo Aranda Balcazar](https://raranda.com/) and [Thomas Goldring](https://tgoldring.com/)).
-
 "Changes in Parental Gender Preference in the United States: Evidence from 1850-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).
 
 "Weather and the Intertemporal Substitution of Exercise Time" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
-
-"Crime and Power Outages" (with [Bobby Chung](https://sites.google.com/view/bobbywchung)).
 
 ## OTHER WRITING
 "Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
