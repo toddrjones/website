@@ -34,7 +34,7 @@ description: Description for the page.
 
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). Revise and resubmit at Journal of Empirical Finance.
 
-"The Graduate and Undergraduate Origins of Economics Faculty" (with Arielle Sloan). [Link to IZA Working Paper 14965](https://docs.iza.org/dp14965.pdf). Submitted.
+"The Roads More Traveled: B.A.-Ph.D.-Professor Pipelines in Economics" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Submitted.
 
 
 ## WORKS IN PROGRESS
