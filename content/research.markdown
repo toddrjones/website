@@ -36,6 +36,8 @@ description: Description for the page.
 
 "The Roads More Traveled: B.A.-Ph.D.-Professor Pipelines in Economics" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Submitted.
 
+"Changes in Parental Gender Preference in the United States: Evidence from 1850-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)). [Link to paper.](/papers/Gender_Preference_most_recent.pdf) Submitted.
+
 
 ## WORKS IN PROGRESS
 
@@ -44,8 +46,6 @@ description: Description for the page.
 "Education in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
-
-"Changes in Parental Gender Preference in the United States: Evidence from 1850-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).
 
 "Weather and the Intertemporal Substitution of Exercise Time" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
 
