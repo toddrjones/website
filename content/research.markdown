@@ -41,6 +41,8 @@ description: Description for the page.
 
 ## WORKS IN PROGRESS
 
+"Occupational Licensing and Teacher Quality" (with Bobby Chung).
+
 "Does Education Reduce Mortality? Evidence from College Establishments" (with [Michael Andrews](https://sites.google.com/site/michaeljeffreyandrews/), [Joseph Price](https://economics.byu.edu/directory/joseph-p-price), [Lauren Russell](https://web.sas.upenn.edu/lrus/), and [Daniel Sacks](https://danielwsacks.com/)).
 
 "Education in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
