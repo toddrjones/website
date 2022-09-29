@@ -5,7 +5,7 @@ menu: main
 title: Website of Todd R. Jones
 ---
 
-I am an Assistant Professor of Economics at Mississippi State University, an [IZA](https://www.iza.org/) Research Affiliate, and an Annenberg Institute (Brown University) [EdWorkingPapers](https://edworkingpapers.com/) Contributor. I will be spending a week in January 2023 as a Guest Researcher at CESifo in Munich, Germany, with the Center for the Economics of Education.
+I am an Assistant Professor of Economics at Mississippi State University, an [IZA](https://www.iza.org/) Research Affiliate, and an Annenberg Institute (Brown University) [EdWorkingPapers](https://edworkingpapers.com/) Contributor. I will be spending a week in January 2023 in Munich, Germany as a Guest Researcher at CESifo and the Center for the Economics of Education (University of Munich).
 
 My research interests are in applied microeconomics, including the economics of education. My research is published in journals including the Journal of Human Resources, Journal of Public Economics, and Economics of Education Review. My CV is available [here](/cv/TJonesCV.pdf).
 
