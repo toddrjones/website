@@ -9,7 +9,7 @@ I am an Assistant Professor of Economics at Mississippi State University, an [IZ
 
 My research interests are in applied microeconomics, including the economics of education. My research is published in journals including the Journal of Human Resources, Journal of Public Economics, and Economics of Education Review. My CV is available [here](/cv/TJonesCV.pdf).
 
-I received a Ph.D. in Economics from Cornell University, and a Bachelors in Economics and Masters in Statistics from Utah State University. Before beginning my current position, I was a Postdoctoral Research Associate at Georgia State University's [Georgia Policy Labs](https://gpl.gsu.edu/). I enjoy making data visualizations; see some examples [here](/dataviz/).
+I received a Ph.D. in Economics from Cornell University, and a Bachelors in Economics and Masters in Statistics from Utah State University. Before beginning my current position, I was a Postdoctoral Research Associate at Georgia State University's [Georgia Policy Labs](https://gpl.gsu.edu/). I enjoy making data visualizations; see some examples [here](/dataviz/). You can also find a thread of Stata tips [here](https://twitter.com/toddrjones/status/1560330744089546752).
 
 ```{r, echo=FALSE, fig.align='center', out.width="20%", out.height="20%"}
 library(knitr)
