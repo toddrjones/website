@@ -32,7 +32,7 @@ description: Description for the page.
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf)
 
-"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). Revise and resubmit at Journal of Empirical Finance.
+"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). Revised and resubmitted to Journal of Empirical Finance.
 
 "The Roads More Traveled: B.A.-Ph.D.-Professor Pipelines in Economics" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Submitted.
 
