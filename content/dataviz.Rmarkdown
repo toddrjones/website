@@ -16,6 +16,11 @@ I enjoy making data visualizations. Almost all use [R](https://www.r-project.org
 Additional visualizations can be found on my [Twitter page](https://twitter.com/toddrjones).
 ___________
 
+Due to a huge increase in traffic from a Linkedin [post](https://www.linkedin.com/feed/update/urn:li:activity:6985255878186737664/), I have been forced to temporarily take down the graphics from this page. 
+
+<!---
+
+
 ```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
 library(knitr)
 include_graphics("/dataviz_files/1child_mort.gif", error=FALSE)
@@ -23,6 +28,10 @@ include_graphics("/dataviz_files/1child_mort.gif", error=FALSE)
 
 Child mortality, 1900-2016
 ________
+
+
+
+
 
 ```{r, echo=FALSE, fig.align='center', out.width="100%", out.height="100%"}
 library(knitr)
@@ -469,6 +478,6 @@ include_graphics("/dataviz_files/mean_pop smaller.gif", error=FALSE)
 
 Mean center of the U.S. population
 
-
+-->
 
 
