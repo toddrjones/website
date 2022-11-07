@@ -16,18 +16,16 @@ I enjoy making data visualizations. Almost all use [R](https://www.r-project.org
 Additional visualizations can be found on my [Twitter page](https://twitter.com/toddrjones).
 ___________
 
-Due to a huge increase in traffic from a Linkedin [post](https://www.linkedin.com/feed/update/urn:li:activity:6985255878186737664/), I have been forced to temporarily take down the graphics from this page. 
-
 <!---
+Due to a huge increase in traffic from a Linkedin [post](https://www.linkedin.com/feed/update/urn:li:activity:6985255878186737664/), I have been forced to temporarily take down the graphics from this page. 
+-->
+
 
 
 <img src="../../../../../../dataviz_files/1child_mort.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Child mortality, 1900-2016
 ________
-
-
-
 
 
 <img src="../../../../../../dataviz_files/life_lgdp_v2.gif" width="100%" height="100%" style="display: block; margin: auto;" />
@@ -61,12 +59,13 @@ _________
 Most popular girl and boy names by state, 1910-2019.
 
 _________
-
+<!---
 <img src="../../../../../../dataviz_files/fertility_gdp_flag_1800.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Fertility (babies per woman), 1800-2016.
 
 _________
+-->
 
 <img src="../../../../../../dataviz_files/international.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
@@ -80,11 +79,13 @@ College openings, 1636–1979.
 
 __________
 
+<!---
 <img src="../../../../../../dataviz_files/post_college.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Post office (blue) and college (red) openings, 1750-1979.
 
 __________
+-->
 
 <img src="../../../../../../dataviz_files/plot1m.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
@@ -146,11 +147,13 @@ Life expectancy vs. health expenditure.
 
 __________
 
+<!---
 <img src="../../../../../../dataviz_files/animation.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 State-to-state migration, where the red state is the sending state and darker=more sending. Uses ACS data.
 
 __________
+-->
 
 <img src="../../../../../../dataviz_files/oktibbeha.jpeg" width="100%" height="100%" style="display: block; margin: auto;" />
 
@@ -212,23 +215,26 @@ The spread of Walmart
 
 ___________
 
+<!---
 <img src="../../../../../../dataviz_files/nationalparks_v2.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Creation of U.S. national parks
 
 ___________
+-->
 
 <img src="../../../../../../dataviz_files/tornado.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Tornadoes by year
 
 ___________
-
+<!---
 <img src="../../../../../../dataviz_files/4ed_flags.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Women's education, 1970-2015
 
 ________
+-->
 
 <img src="../../../../../../dataviz_files/mean_author.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
@@ -276,11 +282,13 @@ NBA team win % by halftime point differential
 
 ___________
 
+<!---
 <img src="../../../../../../dataviz_files/lifeexp.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Life expectancy
 
 ___________
+-->
 
 <img src="../../../../../../dataviz_files/nba_3.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
@@ -318,10 +326,11 @@ Official marathon world records over time
 
 ___________
 
+<!---
 <img src="../../../../../../dataviz_files/mean_pop smaller.gif" width="100%" height="100%" style="display: block; margin: auto;" />
 
 Mean center of the U.S. population
-
 -->
+
 
 
