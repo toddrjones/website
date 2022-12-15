@@ -49,6 +49,7 @@ description: Description for the page.
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
 
+"Parental Time Use and Children's School" (with Benjamin Cowan and Jeffrey Swigert).
 
 ## OTHER WRITING
 "Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
