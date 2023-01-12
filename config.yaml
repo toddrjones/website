@@ -17,7 +17,7 @@ ignoreFiles:
   - \.knit\.md$
   - \.utf8\.md$
 params:
-  copyright: © 2022 Todd Jones
+  copyright: © 2023 Todd Jones
   copyrightUrl: http://www.toddrjones.com
   email: trj234@msstate.edu
   faviconfile: image/favicon.png
