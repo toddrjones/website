@@ -1,0 +1,274 @@
+---
+title: 'Data Visualization'
+date: 2021-09-07T12:56:55-05:00
+meta_img: "image/image.png"
+tags:
+  - "one tag"
+  - "another tag"
+description: "Todd Jones Data Visualization"
+---
+
+I enjoy making data visualizations. Almost all use [R](https://www.r-project.org/)+[ggplot2](https://ggplot2.tidyverse.org/), and some use [gganimate](https://github.com/thomasp85/gganimate).  
+
+Additional visualizations can be found on my [Twitter page](https://twitter.com/toddrjones).
+___________
+![](/dataviz_files/1child_mort.gif)
+
+Child mortality, 1900-2016
+
+________
+
+![](/dataviz_files/life_lgdp_v2.gif)
+
+Life expectancy, 1800-2016.
+
+________
+
+![](</dataviz_files/census pop.png>)
+
+Percent change in resident population, 2020 vs. 2010.
+
+_________
+
+![](</dataviz_files/vaccine hesit_v3.png>)
+
+Estimated percentage of a county who are vaccine hesitant vs. 2020 Democratic presidential vote share.
+
+_________
+
+![](/dataviz_files/homes_v4.png)
+
+Home price index, 1991-2020.
+
+_________
+
+![](/dataviz_files/babynames_girl.gif)
+
+![](/dataviz_files/babynames_boy.gif)
+
+Most popular girl and boy names by state, 1910-2019.
+
+_________
+
+![](/dataviz_files/fertility_gdp_flag_1800.gif)
+
+Fertility (babies per woman), 1800-2016.
+
+_________
+
+![](/dataviz_files/international.gif)
+
+The number of international students studying in U.S. colleges each year, by country of origin, 1999-00 through 2018-19.
+
+__________
+
+![](/dataviz_files/colleges.gif)
+
+College openings, 1636–1979. 
+
+__________
+
+![](/dataviz_files/post_college.gif)
+
+Post office (blue) and college (red) openings, 1750-1979.
+
+__________
+![](/dataviz_files/plot1m.gif>)
+
+Child mortality, 1900-2016.
+
+__________
+![](</dataviz_files/gamestop.png>)
+
+GameStop stock price.
+
+__________
+![](</dataviz_files/Screen Shot 2020-09-26 at 9.05.35 PM.png>)
+
+Walmarts per million people. Darker=more. Source: Business Insider.
+
+__________
+![](</dataviz_files/econ_impact.png>)
+
+Simple impact factor of 200 economics journals.
+
+__________
+![](</dataviz_files/spam.png>)
+
+Spam vs. legitimate email, average global emails per day.
+
+__________
+![](</dataviz_files/coal.png>)
+
+Coal production by state.
+
+__________
+![](</dataviz_files/women_phd.png>)
+
+% of all PhDs earned by women over time
+
+__________
+![](</dataviz_files/tsa.png>)
+
+Travelers passing through TSA checkpoints by day, where red is 2020 and black is 2019.
+
+__________
+![](</dataviz_files/utah.png>)
+
+Utah has more members of the Church of Jesus Christ of Latter-day Saints than all the states colored blue combined.
+
+_________
+![](</dataviz_files/health_life.gif>)
+
+Life expectancy vs. health expenditure.
+
+__________
+![](</dataviz_files/animation.gif>)
+
+State-to-state migration, where the red state is the sending state and darker=more sending. Uses ACS data.
+
+__________
+![](</dataviz_files/oktibbeha.jpeg>)
+
+How Oktibbeha County, Mississippi is connected to other counties, using Facebook SCI data.
+
+___________
+![](</dataviz_files/bend pm25.png>)
+
+Bend, Oregon air quality (PM 2.5), September 7-13, 2011-2020. There were fires in 2020.
+
+___________
+![](</dataviz_files/fertility100.gif>)
+
+ Falling fertility, 100+ years.
+
+___________
+![](</dataviz_files/otter.png>)
+
+The yellow states are the states in which it is legal to own an otter.
+
+___________
+![](</dataviz_files/raccoon.png>)
+
+The yellow states are the states in which it is legal to own a raccoon.
+
+___________
+![](</dataviz_files/phd1.png>)
+
+Where professors at top economics departments got their Ph.D.s.
+
+___________
+![](</dataviz_files/phd2.png>)
+
+Where professors at economics departments (right) got their Ph.D.s. (left).
+
+___________
+![](</dataviz_files/publicschools.png>)
+
+U.S. public schools
+
+___________
+![](</dataviz_files/aea.png>)
+
+AEA JOE job postings by week, 2018-19
+
+___________
+![](</dataviz_files/walmart.gif>)
+
+The spread of Walmart
+
+___________
+![](</dataviz_files/nationalparks_v2.gif>)
+
+Creation of U.S. national parks
+
+___________
+![](</dataviz_files/tornado.gif>)
+
+Tornadoes by year
+
+___________
+![](</dataviz_files/4ed_flags.gif>)
+
+Women's education, 1970-2015
+
+________
+![](</dataviz_files/mean_author.png>)
+
+![](</dataviz_files/number.png>)
+
+![](</dataviz_files/solo.png>)
+
+NBER publications
+
+___________
+![](</dataviz_files/birthspike>)
+
+The above plot shows the total number of births by year, with each color representing a different age of mother. There is a persistent spike that occurs for mothers born in or close to 1946, presumably reflecting the increased number of individuals born in the baby boom. I used the NCHS Natality data, housed at NBER.
+
+___________
+![](</dataviz_files/mortalityfertility.gif>)
+
+Child mortality versus total fertility rate, where each dot is a country.
+
+___________
+![](</dataviz_files/fertility.png>)
+
+U.S. fertility rate
+
+___________
+![](</dataviz_files/target.gif>)
+
+Target store openings
+
+___________
+![](</dataviz_files/bezos.png>)
+
+Comparisons. Source: Wikipedia. Bezos number does not reflect divorce.
+
+___________
+![](</dataviz_files/nbahalftime.gif>)
+
+NBA team win % by halftime point differential
+
+___________
+![](</dataviz_files/lifeexp.gif>)
+
+Life expectancy
+
+___________
+![](</dataviz_files/nba_3.gif>)
+
+Fraction of NBA field goals that are 3 pointers
+
+___________
+![](</dataviz_files/uscrime.gif>)
+
+U.S. property crime over time
+
+___________
+![](</dataviz_files/military.gif>)
+
+Active-duty U.S. military by branch
+
+___________
+![](</dataviz_files/innout.gif>)
+
+In-N-Out openings
+
+___________
+![](</dataviz_files/girlnamesevolution>)
+
+Plots of the evolution of the most popular U.S. baby girl names from 1880 to 2012, where the names shown are the top names in 1880. Data from SSA.
+
+___________
+![](</dataviz_files/marathon.gif>)
+
+Official marathon world records over time
+
+___________
+![](</dataviz_files/mean_pop smaller.gif>)
+
+Mean center of the U.S. population
+
+___________
