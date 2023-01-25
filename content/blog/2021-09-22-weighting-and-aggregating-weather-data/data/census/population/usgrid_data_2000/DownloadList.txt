@@ -1,2 +1,0 @@
-/geotiff/usarea00.tif
-/geotiff/uspop00.tif
