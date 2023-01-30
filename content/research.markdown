@@ -13,7 +13,7 @@ description: Description for the page.
 
 
 ## PUBLICATIONS
-"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). Accepted, Journal of Empirical Finance. [Link to paper](/papers/Finance_Origins.pdf). [Link to data](/data/finance_origins_data.csv).
+"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). Accepted, Journal of Empirical Finance. [Link to paper](/papers/Finance_Origins.pdf). See bottom of this page for data.
 
 "The Effects of Financial Aid Loss on Student Persistence and Graduation: A Multi-Dimensional Regression Discontinuity Approach" (with [Daniel Kreisman](http://www.dkreisman.com/), [Ross Rubenstein](https://aysps.gsu.edu/profile/ross-rubenstein/), [Cynthia Searcy](https://aysps.gsu.edu/profile/cynthia-searcy/), and [Rachana Bhatt](https://www.usg.edu/cassie/about/staff_members)), 2022, Education Finance and Policy, 17(2): 206-231. [Link to paper](https://direct.mit.edu/edfp/article/doi/10.1162/edfp_a_00337/97143/The-Effects-of-Financial-Aid-Loss-on-Persistence). [Link to IZA Working Paper 13849](https://www.iza.org/publications/dp/13849/the-effects-of-financial-aid-loss-on-persistence-and-graduation-a-multi-dimensional-regression-discontinuity-approach).
 
@@ -30,6 +30,8 @@ description: Description for the page.
 "SigTree: A Microbial Community Analysis Tool to Identify and Visualize Significantly Responsive Branches in a Phylogenetic Tree" (with [John Stevens](https://math.usu.edu/jrstevens/), Michael Lefevre, Balasubramanian Ganesan, and Bart Weimer), 2017, Computational and Structural Biotechnology Journal, 15:372-376. [Link to paper](https://www.sciencedirect.com/science/article/pii/S2001037017300132). 
 * Developed [SigTree](https://cran.r-project.org/web/packages/SigTree/index.html), the corresponding R package (with [John Stevens](https://math.usu.edu/jrstevens/)) 
 
+*Student coauthor (as of beginning of project).
+
 ## WORKING PAPERS
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf)
@@ -38,6 +40,7 @@ description: Description for the page.
 
 "The Roads More Traveled: B.A.-Ph.D.-Professor Pipelines in Economics" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Submitted.
 
+*Student coauthor (as of beginning of project).
 
 ## WORKS IN PROGRESS
 
@@ -56,6 +59,9 @@ description: Description for the page.
 
 "Taking Advanced Placement Courses but Not the Exam" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home)* and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2020. Metro Atlanta Policy Lab for Education, Georgia Policy Labs. [Link to policy brief](https://gpl.gsu.edu/publications/ap-exam-taking/).
 
+## DATA
+
+[Data](/data/finance_origins_data.csv) for "The Graduate School Origins of Finance Faculty." If you use the data, please cite our paper as well as [John Hasselback](http://www.jrhasselback.com/FacDir.html), who compiled the data.
 
 
-*Student coauthor (as of beginning of project).
+
