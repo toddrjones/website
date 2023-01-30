@@ -13,7 +13,7 @@ description: Description for the page.
 
 
 ## PUBLICATIONS
-"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). Accepted, Journal of Empirical Finance. [Link](/data/finance_origins_data.csv) to data.
+"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*). Accepted, Journal of Empirical Finance. [Link to paper](/papers/Finance_Origins.pdf). [Link to data](/data/finance_origins_data.csv).
 
 "The Effects of Financial Aid Loss on Student Persistence and Graduation: A Multi-Dimensional Regression Discontinuity Approach" (with [Daniel Kreisman](http://www.dkreisman.com/), [Ross Rubenstein](https://aysps.gsu.edu/profile/ross-rubenstein/), [Cynthia Searcy](https://aysps.gsu.edu/profile/cynthia-searcy/), and [Rachana Bhatt](https://www.usg.edu/cassie/about/staff_members)), 2022, Education Finance and Policy, 17(2): 206-231. [Link to paper](https://direct.mit.edu/edfp/article/doi/10.1162/edfp_a_00337/97143/The-Effects-of-Financial-Aid-Loss-on-Persistence). [Link to IZA Working Paper 13849](https://www.iza.org/publications/dp/13849/the-effects-of-financial-aid-loss-on-persistence-and-graduation-a-multi-dimensional-regression-discontinuity-approach).
 
