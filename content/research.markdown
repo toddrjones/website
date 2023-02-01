@@ -46,13 +46,11 @@ description: Description for the page.
 
 "Parental Time Use and Children's School" (with Benjamin Cowan and Jeffrey Swigert).
 
-"Occupational Licensing and Teacher Quality" (with [Bobby Chung](https://www.sites.google.com/view/bobbywchung)).
-
-"Does Education Reduce Mortality? Evidence from College Establishments" (with [Michael Andrews](https://sites.google.com/site/michaeljeffreyandrews/), [Joseph Price](https://economics.byu.edu/directory/joseph-p-price), and [Lauren Russell](https://web.sas.upenn.edu/lrus/)).
+"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
 
 "Education in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
 
-"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
+<!--"Does Education Reduce Mortality? Evidence from College Establishments" (with [Michael Andrews](https://sites.google.com/site/michaeljeffreyandrews/), [Joseph Price](https://economics.byu.edu/directory/joseph-p-price), and [Lauren Russell](https://web.sas.upenn.edu/lrus/)).-->
 
 ## OTHER WRITING
 "Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
