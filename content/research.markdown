@@ -30,8 +30,6 @@ description: Description for the page.
 "SigTree: A Microbial Community Analysis Tool to Identify and Visualize Significantly Responsive Branches in a Phylogenetic Tree" (with [John Stevens](https://math.usu.edu/jrstevens/), Michael Lefevre, Balasubramanian Ganesan, and Bart Weimer), 2017, Computational and Structural Biotechnology Journal, 15:372-376. [Link to paper](https://www.sciencedirect.com/science/article/pii/S2001037017300132). 
 * Developed [SigTree](https://cran.r-project.org/web/packages/SigTree/index.html), the corresponding R package (with [John Stevens](https://math.usu.edu/jrstevens/)) 
 
-*Student coauthor (as of beginning of project).
-
 ## WORKING PAPERS
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf)
@@ -40,7 +38,7 @@ description: Description for the page.
 
 "The Roads More Traveled: B.A.-Ph.D.-Professor Pipelines in Economics" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Submitted.
 
-*Student coauthor (as of beginning of project).
+
 
 ## WORKS IN PROGRESS
 
@@ -61,5 +59,5 @@ description: Description for the page.
 
 [Data](/data/finance_origins_data.csv) for "The Graduate School Origins of Finance Faculty." If you use the data, please cite our paper as well as [John Hasselback](http://www.jrhasselback.com/FacDir.html), who compiled the data.
 
-
+*Student coauthor (as of beginning of project).
 
