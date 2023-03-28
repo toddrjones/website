@@ -34,9 +34,9 @@ description: Description for the page.
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf)
 
-"Changes in Parental Gender Preference in the United States: Evidence from 1850-1940" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)). [Link to paper.](/papers/Gender_Preference_most_recent.pdf) Revised and resubmitted to Journal of Population Economics.
+"Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)). [Link to paper.](/papers/Gender_Preference_most_recent.pdf) Revised and resubmitted to Journal of Population Economics.
 
-"The Roads More Traveled: B.A.-Ph.D.-Professor Pipelines in Economics" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Submitted.
+"The Roads More Traveled: B.A.-Ph.D.-Professor Pipelines in Economics" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Revise and resubmit at Journal of Economic Education.
 
 
 
