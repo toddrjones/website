@@ -42,11 +42,15 @@ description: Description for the page.
 
 ## WORKS IN PROGRESS
 
-"Parental Time Use and Children's School" (with Benjamin Cowan and Jeffrey Swigert).
+"Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert).
+
+"Teenage Traffic Accidents and Fatalities Around the Academic Year" (with Kendall Kennedy).
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
 
-"Education in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).  
+
+
+<!--"Education in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).-->
 
 <!--"Does Education Reduce Mortality? Evidence from College Establishments" (with [Michael Andrews](https://sites.google.com/site/michaeljeffreyandrews/), [Joseph Price](https://economics.byu.edu/directory/joseph-p-price), and [Lauren Russell](https://web.sas.upenn.edu/lrus/)).-->
 
