@@ -13,6 +13,8 @@ description: Description for the page.
 
 
 ## PUBLICATIONS
+"Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)). [Link to paper.](/papers/Gender_Preference_most_recent.pdf) Conditionally accepted, Journal of Population Economics.
+
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*), 2023, Journal of Empirical Finance, 71:88-103 [Link to paper](https://www.sciencedirect.com/science/article/pii/S0927539823000099). See below for data.
 
 "The Effects of Financial Aid Loss on Student Persistence and Graduation: A Multi-Dimensional Regression Discontinuity Approach" (with [Daniel Kreisman](http://www.dkreisman.com/), [Ross Rubenstein](https://aysps.gsu.edu/profile/ross-rubenstein/), [Cynthia Searcy](https://aysps.gsu.edu/profile/cynthia-searcy/), and [Rachana Bhatt](https://www.usg.edu/cassie/about/staff_members)), 2022, Education Finance and Policy, 17(2): 206-231. [Link to paper](https://direct.mit.edu/edfp/article/doi/10.1162/edfp_a_00337/97143/The-Effects-of-Financial-Aid-Loss-on-Persistence). [Link to IZA Working Paper 13849](https://www.iza.org/publications/dp/13849/the-effects-of-financial-aid-loss-on-persistence-and-graduation-a-multi-dimensional-regression-discontinuity-approach).
@@ -33,8 +35,6 @@ description: Description for the page.
 ## WORKING PAPERS
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf)
-
-"Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)). [Link to paper.](/papers/Gender_Preference_most_recent.pdf) Revised and resubmitted to Journal of Population Economics.
 
 "The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Revise and resubmit at Journal of Economic Education.
 
