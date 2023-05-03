@@ -36,9 +36,9 @@ description: Description for the page.
 
 "The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. Revise and resubmit at Journal of Economic Education.
 
-"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf)
+"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf) 
 
-"Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to paper.](https://docs.iza.org/dp16086.pdf)
+"Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177). 
 
 
 
