@@ -10,7 +10,7 @@ enableEmoji: yes
 hasCJKLanguage: yes
 #googleAnalytics: "UA-124811401-2" (updated to ...-1; see 12/8/2021 email; not sure if this is right or not)
 #googleAnalytics: "UA-124811401-2"
-googleAnalytics: "G-GHSS434RRK"
+googleAnalyticsID: "G-GHSS434RRK"
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
