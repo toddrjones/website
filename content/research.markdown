@@ -40,13 +40,13 @@ description: Description for the page.
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf) 
 
-
+"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf)
 
 ## WORKS IN PROGRESS
 
 "Teenage Traffic Accidents and Fatalities Around the Academic Year" (with Kendall Kennedy).
 
-"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)).
+
 
 
 
