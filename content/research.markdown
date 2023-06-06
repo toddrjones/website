@@ -38,9 +38,9 @@ description: Description for the page.
 
 "Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177). *Submitted*.
 
-"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf) 
+"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) *Submitted.*
 
-"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf)
+"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf) 
 
 ## WORKS IN PROGRESS
 
