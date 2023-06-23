@@ -55,9 +55,11 @@ description: Description for the page.
 <!--"Does Education Reduce Mortality? Evidence from College Establishments" (with [Michael Andrews](https://sites.google.com/site/michaeljeffreyandrews/), [Joseph Price](https://economics.byu.edu/directory/joseph-p-price), and [Lauren Russell](https://web.sas.upenn.edu/lrus/)).-->
 
 ## OTHER WRITING
-"Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
+"Moms lose significant sleep and free time during kids’ school year, new study finds" (with Benjamin Cowan and Jeffrey Swigert), 2023. The Conversation. [Link to article](https://theconversation.com/moms-lose-significant-sleep-and-free-time-during-kids-school-year-new-study-finds-205273).
 
 "Taking Advanced Placement Courses but Not the Exam" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home)* and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2020. Metro Atlanta Policy Lab for Education, Georgia Policy Labs. [Link to policy brief](https://gpl.gsu.edu/publications/ap-exam-taking/).
+
+"Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
 
 ## DATA
 
