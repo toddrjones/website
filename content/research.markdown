@@ -34,7 +34,7 @@ description: Description for the page.
 
 ## WORKING PAPERS
 
-"The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. *Revised and resubmitted to Journal of Economic Education*.
+"The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. *Conditionally accepted, Journal of Economic Education*.
 
 "Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177). *Submitted*.
 
