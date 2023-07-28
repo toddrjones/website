@@ -13,6 +13,8 @@ description: Description for the page.
 
 
 ## PUBLICATIONS
+"The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Accepted, Journal of Economic Education.
+
 "Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)). [Link to paper.](/papers/Gender_Preference_most_recent.pdf) Accepted, Journal of Population Economics.
 
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*), 2023, Journal of Empirical Finance, 71:88-103 [Link to paper](https://www.sciencedirect.com/science/article/pii/S0927539823000099). See below for data.
@@ -27,16 +29,14 @@ description: Description for the page.
 
 "Are High-Quality PhD Programs at Universities Associated with More Undergraduate Students Pursuing PhD Study?" (with [Ronald Ehrenberg](https://courses.cit.cornell.edu/rge2/)), 2019, Education Economics, 27(5):451-471. [Link to paper](https://www.tandfonline.com/doi/abs/10.1080/09645292.2019.1623177?journalCode=cede20).
 
-"Information and the Beauty Premium in Political Elections" (with [Joe Price](https://economics.byu.edu/directory/joseph-p-price)), 2017, Contemporary Economic Policy, 35:677-683. [Link to paper](https://onlinelibrary.wiley.com/doi/full/10.1111/coep.12231). [Online appendix](https://drive.google.com/file/d/1p8kOpgpwr66KZxTLf5nLwCrYlhstwhDR/view).
+"Information and the Beauty Premium in Political Elections" (with [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)), 2017, Contemporary Economic Policy, 35:677-683. [Link to paper](https://onlinelibrary.wiley.com/doi/full/10.1111/coep.12231). [Online appendix](https://drive.google.com/file/d/1p8kOpgpwr66KZxTLf5nLwCrYlhstwhDR/view).
 
 "SigTree: A Microbial Community Analysis Tool to Identify and Visualize Significantly Responsive Branches in a Phylogenetic Tree" (with [John Stevens](https://math.usu.edu/jrstevens/), Michael Lefevre, Balasubramanian Ganesan, and Bart Weimer), 2017, Computational and Structural Biotechnology Journal, 15:372-376. [Link to paper](https://www.sciencedirect.com/science/article/pii/S2001037017300132). 
 * Developed [SigTree](https://cran.r-project.org/web/packages/SigTree/index.html), the corresponding R package (with [John Stevens](https://math.usu.edu/jrstevens/)) 
 
 ## WORKING PAPERS
 
-"The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Prior version also available as IZA Working Paper 14965. *Conditionally accepted, Journal of Economic Education*.
-
-"Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177). *Submitted*.
+"Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177).
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) *Submitted.*
 
