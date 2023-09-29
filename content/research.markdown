@@ -36,23 +36,13 @@ description: Description for the page.
 
 ## WORKING PAPERS
 
-"Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177).
-
-"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) *Submitted.*
-
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf) 
 
-## WORKS IN PROGRESS
+"Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177).
 
-"Teenage Traffic Accidents and Fatalities Around the Academic Year" (with Kendall Kennedy).
+"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) 
 
-
-
-
-
-<!--"Education in Early 20th Century Mississippi" (with [Kendall Kennedy](https://sites.google.com/site/kendalljameskennedy/) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)).-->
-
-<!--"Does Education Reduce Mortality? Evidence from College Establishments" (with [Michael Andrews](https://sites.google.com/site/michaeljeffreyandrews/), [Joseph Price](https://economics.byu.edu/directory/joseph-p-price), and [Lauren Russell](https://web.sas.upenn.edu/lrus/)).-->
+<!--## WORKS IN PROGRESS-->
 
 ## OTHER WRITING
 "Moms lose significant sleep and free time during kids’ school year, new study finds" (with Benjamin Cowan and Jeffrey Swigert), 2023. The Conversation. [Link to article](https://theconversation.com/moms-lose-significant-sleep-and-free-time-during-kids-school-year-new-study-finds-205273).
