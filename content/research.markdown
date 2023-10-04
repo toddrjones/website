@@ -42,7 +42,11 @@ description: Description for the page.
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) 
 
-<!--## WORKS IN PROGRESS-->
+## WORKS IN PROGRESS
+
+"The Effects of School and Non-school Resources on Student Outcomes" (with Ezra Karger and Sarah Komisarow).
+
+"The True Costs of Children" (with Ezra Karger).
 
 ## OTHER WRITING
 "Moms lose significant sleep and free time during kids’ school year, new study finds" (with Benjamin Cowan and Jeffrey Swigert), 2023. The Conversation. [Link to article](https://theconversation.com/moms-lose-significant-sleep-and-free-time-during-kids-school-year-new-study-finds-205273).
