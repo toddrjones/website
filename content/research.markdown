@@ -15,7 +15,7 @@ description: Description for the page.
 ## PUBLICATIONS
 "The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Accepted, Journal of Economic Education.
 
-"Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://wpcarey.asu.edu/people/profile/3278766)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)). [Link to paper.](/papers/Gender_Preference_most_recent.pdf) Accepted, Journal of Population Economics.
+"Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://sites.google.com/view/matthewmillington)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)). [Link to paper.](/papers/Gender_Preference_most_recent.pdf) Accepted, Journal of Population Economics.
 
 "The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*), 2023, Journal of Empirical Finance, 71:88-103 [Link to paper](https://www.sciencedirect.com/science/article/pii/S0927539823000099). See below for data.
 
