@@ -36,7 +36,7 @@ description: Description for the page.
 
 ## WORKING PAPERS
 
-"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) 
+"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) Submitted. 
 
 "Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to IZA working paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177).
 
