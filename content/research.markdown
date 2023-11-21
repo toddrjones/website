@@ -38,18 +38,18 @@ description: Description for the page.
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) Submitted. 
 
-"Parental and Student Time Use Around the Academic Year" (with Benjamin Cowan and Jeffrey Swigert). [Link to IZA working paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177).
+"Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177).
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) 
 
 ## WORKS IN PROGRESS
 
-"The Effects of School and Non-school Resources on Student Outcomes" (with Ezra Karger and Sarah Komisarow).
+"The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/), [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/home), and [Peter Nencka](https://www.peternencka.com/)).
 
-"The Full Costs of Children" (with Ezra Karger).
+"The Full Costs of Children" (with [Ezra Karger](https://ezrakarger.com/)).
 
 ## OTHER WRITING
-"Moms lose significant sleep and free time during kids’ school year, new study finds" (with Benjamin Cowan and Jeffrey Swigert), 2023. The Conversation. [Link to article](https://theconversation.com/moms-lose-significant-sleep-and-free-time-during-kids-school-year-new-study-finds-205273).
+"Moms lose significant sleep and free time during kids’ school year, new study finds" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)), 2023. The Conversation. [Link to article](https://theconversation.com/moms-lose-significant-sleep-and-free-time-during-kids-school-year-new-study-finds-205273).
 
 "Taking Advanced Placement Courses but Not the Exam" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home)* and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2020. Metro Atlanta Policy Lab for Education, Georgia Policy Labs. [Link to policy brief](https://gpl.gsu.edu/publications/ap-exam-taking/).
 
