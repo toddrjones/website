@@ -11,6 +11,6 @@ meta_img: image/image.png
 description: Description for the page.
 ---
 
-Click [here](/book/QuickStataTips.pdf) to download the *Quick Stata Tips* book.
+Click [here](/book/QuickStataTips.pdf) for my *Quick Stata Tips* book.
 
 Click [here](/book/QuickStataTips.do) to download the accompanying Stata .do file.
