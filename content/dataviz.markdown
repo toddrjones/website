@@ -1,14 +1,14 @@
 ---
 title: ''
 author: Todd R. Jones
-date: '2021-09-08'
+date: '2023-12-01'
 slug: []
 categories: []
 tags:
-  - one tag
-  - another tag
+  - Todd Jones
+  - Data visualization
 meta_img: image/image.png
-description: Description for the page.
+description: Data Visualization
 ---
 
 I enjoy making data visualizations. Almost all use [R](https://www.r-project.org/)+[ggplot2](https://ggplot2.tidyverse.org/), and some use [gganimate](https://github.com/thomasp85/gganimate).  
