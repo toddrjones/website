@@ -1,14 +1,14 @@
 ---
-title: ''
+title: 'Quick Stata Tips'
 author: Todd R. Jones
 date: '2023-11-30'
 slug: []
 categories: []
 tags:
-  - one tag
-  - another tag
+  - Quick Stata Tips
+  - Stata
 meta_img: image/image.png
-description: Description for the page.
+description: Quick Stata Tips.
 ---
 
 Click [here](/book/QuickStataTips.pdf) for my *Quick Stata Tips* book.
