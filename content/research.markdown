@@ -1,5 +1,5 @@
 ---
-title: 'Todd Jones Research'
+title: 'Research'
 author: Todd R. Jones
 date: '2023-12-01'
 slug: []

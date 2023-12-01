@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Data Visualization'
 author: Todd R. Jones
 date: '2023-12-01'
 slug: []
