@@ -1,7 +1,7 @@
 ---
-title: ''
+title: 'Personal'
 author: Todd R. Jones
-date: '2021-09-08'
+date: '2023-12-01'
 slug: []
 categories: []
 tags:
