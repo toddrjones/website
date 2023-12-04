@@ -46,7 +46,11 @@ description: Todd Jones Research
 
 "The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/), [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/home), and [Peter Nencka](https://www.peternencka.com/)).
 
-"The Full Costs of Children" (with [Ezra Karger](https://ezrakarger.com/)).
+"The Full Costs of Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
+
+## BOOKS
+
+"Quick Stata Tips." [Link to book and accompanying .do file](https://www.toddrjones.com/quickstatatips/).
 
 ## OTHER WRITING
 "Moms lose significant sleep and free time during kids’ school year, new study finds" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)), 2023. The Conversation. [Link to article](https://theconversation.com/moms-lose-significant-sleep-and-free-time-during-kids-school-year-new-study-finds-205273).
