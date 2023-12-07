@@ -36,7 +36,7 @@ description: Todd Jones Research
 
 ## WORKING PAPERS
 
-"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) Submitted. 
+"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) 
 
 "Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16086.pdf) Also available as [NBER Working Paper 31177](https://www.nber.org/papers/w31177).
 
