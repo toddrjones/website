@@ -15,15 +15,15 @@ description: Todd Jones Research
 ## PUBLICATIONS
 "The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Accepted, Journal of Economic Education.
 
-"Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://sites.google.com/view/matthewmillington)* and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)), 2023, Journal of Population Economics, 36:3057--3070. [Link to paper.](/papers/Gender_Preference_most_recent.pdf) 
+"Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://sites.google.com/view/matthewmillington) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)), 2023, Journal of Population Economics, 36:3057--3070. [Link to paper.](/papers/Gender_Preference_most_recent.pdf) 
 
-"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)*), 2023, Journal of Empirical Finance, 71:88-103 [Link to paper](https://www.sciencedirect.com/science/article/pii/S0927539823000099). See below for data.
+"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)), 2023, Journal of Empirical Finance, 71:88-103 [Link to paper](https://www.sciencedirect.com/science/article/pii/S0927539823000099). See below for data.
 
 "The Effects of Financial Aid Loss on Student Persistence and Graduation: A Multi-Dimensional Regression Discontinuity Approach" (with [Daniel Kreisman](http://www.dkreisman.com/), [Ross Rubenstein](https://aysps.gsu.edu/profile/ross-rubenstein/), [Cynthia Searcy](https://aysps.gsu.edu/profile/cynthia-searcy/), and [Rachana Bhatt](https://www.usg.edu/cassie/about/staff_members)), 2022, Education Finance and Policy, 17(2):206-231. [Link to paper](https://direct.mit.edu/edfp/article/doi/10.1162/edfp_a_00337/97143/The-Effects-of-Financial-Aid-Loss-on-Persistence). [Link to IZA Working Paper 13849](https://www.iza.org/publications/dp/13849/the-effects-of-financial-aid-loss-on-persistence-and-graduation-a-multi-dimensional-regression-discontinuity-approach).
 
 "Maxed Out: The Human Capital Effects of Larger Student Loan Limits" (with [Jeffrey Denning](https://www.jeffdenning.com/)), 2021, Journal of Human Resources, 56(4):1113-1140. [Link to paper](http://jhr.uwpress.org/content/56/4/1113.short). [Link to IZA Working Paper 12239](https://www.iza.org/en/publications/dp/12239/maxed-out-the-effect-of-larger-student-loan-limits-on-borrowing-and-education-outcomes).
 
-"College Credit on the Table? Advanced Placement Course and Exam Taking" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home)* and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2021, Economics of Education Review, 84:102-155. [Link to paper](https://www.sciencedirect.com/science/article/pii/S0272775721000741). [Link to IZA Working Paper 14652](https://www.iza.org/de/publications/dp/14652/college-credit-on-the-table-advanced-placement-course-and-exam-taking).
+"College Credit on the Table? Advanced Placement Course and Exam Taking" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home) and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2021, Economics of Education Review, 84:102-155. [Link to paper](https://www.sciencedirect.com/science/article/pii/S0272775721000741). [Link to IZA Working Paper 14652](https://www.iza.org/de/publications/dp/14652/college-credit-on-the-table-advanced-placement-course-and-exam-taking).
 
 "Do Peers Influence Occupational Preferences? Evidence from Randomly-Assigned Peer Groups at West Point" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)), 2020, Journal of Public Economics, 184:104-154. [Link to paper](https://www.sciencedirect.com/science/article/pii/S0047272720300189).
 
@@ -55,13 +55,11 @@ description: Todd Jones Research
 ## OTHER WRITING
 "Moms lose significant sleep and free time during kids’ school year, new study finds" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)), 2023. The Conversation. [Link to article](https://theconversation.com/moms-lose-significant-sleep-and-free-time-during-kids-school-year-new-study-finds-205273).
 
-"Taking Advanced Placement Courses but Not the Exam" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home)* and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2020. Metro Atlanta Policy Lab for Education, Georgia Policy Labs. [Link to policy brief](https://gpl.gsu.edu/publications/ap-exam-taking/).
+"Taking Advanced Placement Courses but Not the Exam" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home) and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2020. Metro Atlanta Policy Lab for Education, Georgia Policy Labs. [Link to policy brief](https://gpl.gsu.edu/publications/ap-exam-taking/).
 
 "Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
 
 ## DATA
 
 [Data](/data/finance_origins_data.csv) for "The Graduate School Origins of Finance Faculty." If you use the data, please cite our paper as well as [John Hasselback](http://www.jrhasselback.com/FacDir.html), who compiled the data.
-
-*Student coauthor (as of beginning of project).
 
