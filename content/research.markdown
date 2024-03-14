@@ -38,7 +38,7 @@ description: Todd Jones Research
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) 
 
-"Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)). [Link to paper.](/papers/Parent_Time_Use_most_recent.pdf) Also available as [IZA working paper 16086](https://docs.iza.org/dp16086.pdf) and [NBER Working Paper 31177](https://www.nber.org/papers/w31177). Submitted.
+"Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)). [Link to paper.](/papers/Parent_Time_Use_most_recent.pdf) Also available as [IZA working paper 16086](https://docs.iza.org/dp16086.pdf) and [NBER Working Paper 31177](https://www.nber.org/papers/w31177). Revise and resubmit at Journal of Economic Behavior and Organization.
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) Submitted.
 
