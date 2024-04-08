@@ -36,7 +36,7 @@ description: Todd Jones Research
 
 ## WORKING PAPERS
 
-"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) 
+"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) Submitted.
 
 "Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)). [Link to paper.](/papers/Parent_Time_Use_most_recent.pdf) Also available as [IZA working paper 16086](https://docs.iza.org/dp16086.pdf) and [NBER Working Paper 31177](https://www.nber.org/papers/w31177). Revised and resubmitted to Journal of Economic Behavior and Organization.
 
@@ -44,9 +44,9 @@ description: Todd Jones Research
 
 ## WORKS IN PROGRESS
 
-"The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/), [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/home), and [Peter Nencka](https://www.peternencka.com/)).
+"The Full Cost of Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
 
-"The Full Costs of Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
+"The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/), [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/home), and [Peter Nencka](https://www.peternencka.com/)).
 
 ## BOOKS
 
