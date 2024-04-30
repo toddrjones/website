@@ -46,7 +46,7 @@ description: Todd Jones Research
 
 "The Full Cost of Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
 
-"The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/), [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/home), and [Peter Nencka](https://www.peternencka.com/)).
+"The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/) and [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/home)).
 
 ## BOOKS
 
