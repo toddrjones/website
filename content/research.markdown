@@ -15,7 +15,7 @@ description: Todd Jones Research
 ## PUBLICATIONS
 "The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Accepted, Journal of Economic Education.
 
-"Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)), 2024, Journal of Economic Behavior and Organization, 224:66-110. [Link to paper.](/papers/Parent_Time_Use_most_recent.pdf)
+"Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)), 2024, Journal of Economic Behavior and Organization, 224:66-110. [Link to paper.](https://www.sciencedirect.com/science/article/pii/S0167268124001598)
 
 "Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://sites.google.com/view/matthewmillington) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)), 2023, Journal of Population Economics, 36:3057--3070. [Link to paper.](/papers/Gender_Preference_most_recent.pdf) 
 
