@@ -13,13 +13,13 @@ description: Todd Jones Research
 
 
 ## PUBLICATIONS
-"Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)). [Link to paper.](/papers/Parent_Time_Use_most_recent.pdf) Accepted, Journal of Economic Behavior and Organization.
-
 "The Academic Origins of Economics Faculty" (with Arielle Sloan). [Link to paper](/papers/PhD_Origins_most_recent.pdf). Accepted, Journal of Economic Education.
+
+"Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)), 2024, Journal of Economic Behavior and Organization, 224:66-110. [Link to paper.](/papers/Parent_Time_Use_most_recent.pdf)
 
 "Changes in Parental Gender Preference in the United States: Evidence from 1850-2019" (with [Matthew Millington](https://sites.google.com/view/matthewmillington) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)), 2023, Journal of Population Economics, 36:3057--3070. [Link to paper.](/papers/Gender_Preference_most_recent.pdf) 
 
-"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)), 2023, Journal of Empirical Finance, 71:88-103 [Link to paper](https://www.sciencedirect.com/science/article/pii/S0927539823000099). See below for data.
+"The Graduate School Origins of Finance Faculty" (with [Haoyang Xiong](https://www.haoyangxiong.com/home)), 2023, Journal of Empirical Finance, 71:88-103. [Link to paper](https://www.sciencedirect.com/science/article/pii/S0927539823000099). See below for data.
 
 "The Effects of Financial Aid Loss on Student Persistence and Graduation: A Multi-Dimensional Regression Discontinuity Approach" (with [Daniel Kreisman](http://www.dkreisman.com/), [Ross Rubenstein](https://aysps.gsu.edu/profile/ross-rubenstein/), [Cynthia Searcy](https://aysps.gsu.edu/profile/cynthia-searcy/), and [Rachana Bhatt](https://www.usg.edu/cassie/about/staff_members)), 2022, Education Finance and Policy, 17(2):206-231. [Link to paper](https://direct.mit.edu/edfp/article/doi/10.1162/edfp_a_00337/97143/The-Effects-of-Financial-Aid-Loss-on-Persistence). [Link to IZA Working Paper 13849](https://www.iza.org/publications/dp/13849/the-effects-of-financial-aid-loss-on-persistence-and-graduation-a-multi-dimensional-regression-discontinuity-approach).
 
