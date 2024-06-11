@@ -48,6 +48,8 @@ description: Todd Jones Research
 
 "The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/) and [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/home)).
 
+Parental Separation, Parental Constraints, and Children (with [Jocelyn Wikle](https://fhssfaculty.byu.edu/directory/jocelyn-wikle) and [Riley Wilson](https://economics.byu.edu/directory/riley-wilson)). 
+
 ## BOOKS
 
 "Quick Stata Tips." [Link to book and accompanying .do file](https://www.toddrjones.com/quickstatatips/).
