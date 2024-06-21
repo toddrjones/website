@@ -38,15 +38,13 @@ description: Todd Jones Research
 
 ## WORKING PAPERS
 
-"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) Submitted.
+"School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to IZA working paper.](https://docs.iza.org/dp16506.pdf) Reject and resubmit, AEJ: Economic Policy.
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) Submitted.
 
 ## WORKS IN PROGRESS
 
 "The Full Cost of Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
-
-"The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/) and [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/home)).
 
 Parental Separation, Parental Constraints, and Children (with [Jocelyn Wikle](https://fhssfaculty.byu.edu/directory/jocelyn-wikle) and [Riley Wilson](https://economics.byu.edu/directory/riley-wilson)). 
 
