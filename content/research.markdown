@@ -44,7 +44,7 @@ description: Todd Jones Research
 
 ## WORKS IN PROGRESS
 
-"The Full Cost of Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
+"Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
 
 ## BOOKS
 
