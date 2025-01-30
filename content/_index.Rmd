@@ -5,7 +5,7 @@ menu: main
 title: Website of Todd R. Jones
 ---
 
-I am an Assistant Professor of Economics at Mississippi State University, an [IZA](https://www.iza.org/) Research Affiliate, a [CESifo](https://www.cesifo.org/en) Research Network Affiliate, and an Annenberg Institute (Brown University) [EdWorkingPapers](https://edworkingpapers.com/) Contributor. 
+I am an Assistant Professor of Economics at Mississippi State University, an [IZA](https://www.iza.org/) Research Fellow, a [CESifo](https://www.cesifo.org/en) Research Network Affiliate, and an Annenberg Institute (Brown University) [EdWorkingPapers](https://edworkingpapers.com/) Contributor. 
 
 My research interests are in applied microeconomics, including the economics of education. My research is published in journals including the Journal of Human Resources, Journal of Public Economics, Journal of Economic Behavior & Organization, Journal of Population Economics, Economics of Education Review, and Education Finance & Policy. My CV is available [here](/cv/TJonesCV.pdf).
 
