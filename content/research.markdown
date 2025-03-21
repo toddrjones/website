@@ -36,7 +36,7 @@ description: Todd Jones Research
 "SigTree: A Microbial Community Analysis Tool to Identify and Visualize Significantly Responsive Branches in a Phylogenetic Tree" (with [John Stevens](https://math.usu.edu/jrstevens/), Michael Lefevre, Balasubramanian Ganesan, and Bart Weimer), 2017, Computational and Structural Biotechnology Journal, 15:372-376. [Link to paper](https://www.sciencedirect.com/science/article/pii/S2001037017300132). 
 * Developed [SigTree](https://cran.r-project.org/web/packages/SigTree/index.html), the corresponding R package (with [John Stevens](https://math.usu.edu/jrstevens/)) 
 
-## WORKING PAPERS
+## WORKING PAPERS 
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf) Reject and resubmit, AEJ: Economic Policy.
 
