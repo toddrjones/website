@@ -42,11 +42,11 @@ description: Todd Jones Research
 
 "First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) Revised and resubmitted to Labour Economics.
 
+"Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)). [Link to paper.](/papers/Cheaper_by_the_Dozen_most_recent.pdf)
+
 "Paying for Prestige: Compensating Differentials in Faculty Job Choice" (with [Alex Bell](https://alexbell.net/)). Draft available upon request.
 
 ## WORKS IN PROGRESS
-
-"Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
 
 "The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/) and [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/)).
 
