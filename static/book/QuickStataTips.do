@@ -1,5 +1,5 @@
 
-*Code to accompany "Quick Stata Tips" version 1.0
+*Code to accompany "Quick Stata Tips" version 2.0
 *by Todd Jones
 
 ********************************************************************************
@@ -577,9 +577,16 @@ sysuse auto2, clear
 binscatterhist weight length, hist(weight length) ymin(1100)  xhistbarheight(30) yhistbarheight(13)
 
 ********************************************************************************
+*alluvial
+ssc install alluvial
+*example from package tutorial
+sysuse nlsw88.dta, clear
+alluvial race married collgrad smsa union
+
+********************************************************************************
 *sankey
 capture ssc install sankey
-help sankey
+*example from package tutorial
 use "https://github.com/asjadnaqvi/stata-sankey/blob/main/data/sankey2.dta?raw=true", clear
 sankey value, from(source) to(destination) by(layer) noval showtot palette(CET C6) laba(0) labpos(3) labg(-1) offset(10)
 
@@ -807,6 +814,16 @@ sysuse auto2, clear
 reg price mpg length displacement weight trunk
 coefplot, drop(_cons) vertical
 
+sysuse auto2, clear
+est clear
+local i = 1
+foreach var in headroom trunk weight length turn displacement {
+	reg mpg `var'
+	est store est`i'
+	local i = `i'+1
+}
+coefplot (est1\est2\est3\est4\est5\est6), drop(_cons) xline(0)
+
 ********************************************************************************
 *expand
 sysuse auto2, clear
@@ -858,9 +875,411 @@ foreach i in Zissou1 cividis icefire Blues {
 	mscatter change close if inrange(change, -30, 30), msymbol(O) msize(7) sch(s1mono) over(change) colorpalette(`i') 
 }
 
+********************************************************************************
+*98. lower case variable names
+clear all
+gen One = 1
+gen TWO = 2
+gen ThrEE = 3
+rename *, lower
+
+********************************************************************************
+*99. tablbl
+net install tablbl, from(https://raw.githubusercontent.com/tgoldring/tablbl/master)
+sysuse auto2, clear
+tablbl rep78 foreign, m
+
+********************************************************************************
+*100. greshape
+ssc install gtools
+clear all
+set obs 1000000
+gen i = _n
+forvalues i=1/20 {
+	gen a`i'=runiform()
+}
+preserve
+timer clear 
+timer on 1 
+reshape long a, i(i) j(j)
+timer off 1 
+restore
+
+timer on 2
+greshape long a, i(i) j(j)
+timer off 2
+
+*reshape long a, i(i) j(j)
+timer list 1
+
+*greshape long a, i(i) j(j)
+timer list 2
+
+********************************************************************************
+*101. connected scatter plots
+sysuse auto2, clear
+collapse (mean) price, by(mpg foreign)
+twoway (connected price mpg if foreign==0) (connected price mpg if foreign==1), legend(order(1 "Domestic" 2 "Foreign")) ytitle(Price) xtitle(Mileage)
+
+********************************************************************************
+*102. distinct
+
+ssc install distinct
+sysuse auto2, clear
+distinct trunk
+
+********************************************************************************
+*103. unique
+
+ssc install unique
+sysuse auto2, clear
+
+unique trunk
+unique trunk turn
+
+********************************************************************************
+*104. reghdfe
+
+ssc install reghdfe
+webuse hdfe, clear
+reghdfe y x, absorb(id FE1=a1 FE2=a2) resid(resid)
+
+********************************************************************************
+*105. areg
+
+webuse hdfe, clear
+
+timer clear
+timer on 1
+areg y x i.a1 i.a2, absorb(id)
+timer off 1
+
+timer on 2
+areg y x, absorb(id a1 a2)
+timer off 2
+
+timer on 3
+reghdfe y x, absorb(id a1 a2)
+timer off 3
+
+*areg y x i.a1 i.a2, absorb(id)
+timer list 1
+
+*areg y x, absorb(id a1 a2)
+timer list 2
+
+*reghdfe y x, absorb(id a1 a2)
+timer list 3
 
 
+********************************************************************************
+*106. reghdfejl and 108. braces
+ssc install julia
+*update version number with latest version here: https://github.com/droodman/reghdfejl/releases
+net install reghdfejl, replace from(https://raw.github.com/droodman/reghdfejl/v1.1.1)
+webuse hdfe, clear
+tempfile a
+save `a'
+forv i=1/9 {
+	append using `a'
+}
 
+{
+timer clear
+timer on 1
+areg y x, a(id a1 a2)
+timer off 1
+timer on 2
+reghdfe y x, a(id a1 a2)
+timer off 2
+*run regression using reghdfejl to warm up julia
+* and then include the next one in the timer
+reghdfejl y x, a(id a1 a2)
+timer on 3
+reghdfejl y x, a(id a1 a2)
+timer off 3
+
+*areg y x, a(id a1 a2)
+timer list 1
+
+*reghdfe y x, a(id a1 a2)
+timer list 2
+
+*reghdfejl y x, a(id a1 a2)
+timer list 3
+}
+
+********************************************************************************
+*109. Create a variable based on one observation within a group 
+sysuse sandstone, clear
+gen n=_n
+preserve
+keep if collection==2
+bysort northing (n): keep if _n==1
+rename depth depth_estimated
+tempfile m
+save `m'
+restore
+merge m:1 northing using `m', keepusing(depth_estimated)
+
+********************************************************************************
+*110. set rmsg on 
+
+set rmsg on 
+webuse hdfe, clear
+quietly sum a
+set rmsg off
+
+********************************************************************************
+*111. iteration time
+
+timer clear
+foreach i of num 1/4 {
+	timer on 1
+	quietly webuse hdfe, clear
+	timer off 1
+	
+	di "`var', *******Iteration `i'" 
+	timer list 1
+}
+
+
+********************************************************************************
+*112. ridgeline
+
+*uses code from https://github.com/asjadnaqvi/stata-ridgeline
+ssc install ridgeline, replace
+*get data from: https://github.com/asjadnaqvi/stata-ridgeline/tree/main/data
+use us_meantemp.dta, clear
+ridgeline meantemp, by(month) bwid(1.5) labs(3) overlap(3) yline yrev palette(CET C6) ///
+	xlabel(-20(10)30) ///
+	xtitle("degrees Centigrade") ///
+	title("Mean average temperature in the USA") subtitle("2009-2020 average") ///
+	note("Source: World Bank Climate Change Knowledge Portal (CCKP).", size(vsmall)) ///
+		xsize(4) ysize(5)
+
+********************************************************************************
+*113. recol
+
+ssc install recol
+sysuse census, clear
+replace state = "ABCDEFGASDFASDFSADF" in 1
+recol state, maxwidth(7) compress
+
+********************************************************************************
+*115. python
+
+python
+print("hello world")
+end
+
+********************************************************************************
+*116. bcuse
+
+ssc install bcuse
+bcuse fish, clear
+
+********************************************************************************
+*119. Conditions within for-loop
+
+foreach i in first second {
+	sysuse auto2, clear
+	if "`i'"=="first" keep if mpg<17
+	if "`i'"=="second" keep if trunk>11
+	
+	reg price mpg
+}
+
+
+********************************************************************************
+*120. sencode
+
+sysuse educ99gdp, clear
+sort private
+encode country, gen(country_encode)
+sencode country, gen(country_sencode)
+sencode country, gen(country_sencode2) gsort(-country)
+
+fre country_encode
+fre country_sencode
+fre country_sencode2
+
+********************************************************************************
+*123. parmest
+
+ssc install parmest
+sysuse auto2, clear
+reg price mpg headroom trunk weight
+parmest, norestore
+
+********************************************************************************
+*124. Create year, month, week, and day of week variables
+
+sysuse tsline2, clear
+gen year = year(day)
+gen month = month(day)
+gen week = week(day)
+gen dow = dow(day)
+
+********************************************************************************
+*125. freqindex
+
+ssc install freqindex
+sysuse githubfiles, clear
+freqindex packagename
+gsort -freq
+
+********************************************************************************
+*126. revrs
+
+ssc install revrs
+sysuse sandstone, clear
+fre collection
+revrs collection, replace
+fre collection
+
+********************************************************************************
+*127. educationdata
+
+ssc install educationdata
+educationdata using "college ipeds salaries-instructional-staff", sub(year=2020) clear csv
+
+********************************************************************************
+*128. wbopendata
+
+ssc install wbopendata
+wbopendata, indicator(6.0.GDP_current) clear
+
+********************************************************************************
+*129. freduse 
+
+ssc install freduse
+freduse CPIAUCSL, clear
+
+********************************************************************************
+*130. Put error bands on graph
+
+sysuse auto2, clear
+reg price i.trunk
+parmest, norestore
+drop if parm=="_cons"
+gen trunk = substr(parm, 1, 1) if _n==1 | strlen(parm)==7
+replace trunk = substr(parm, 1, 2) if missing(trunk)
+destring trunk, replace
+twoway (rcap min95 max95 trunk) ///
+	   (scatter estimate trunk), legend(off)
+
+********************************************************************************
+*131. rowmiss
+
+sysuse gitget, clear
+drop homepage dependency
+egen rowmiss = rowmiss(*)
+tab rowmiss
+
+********************************************************************************
+*132. vioplot
+
+ssc install vioplot
+sysuse citytemp4, clear
+vioplot tempjan, over(region) title(Average January Temperature)
+
+********************************************************************************
+*133. Winsorize
+
+ssc install winsor2
+sysuse nlsw88, clear
+keep if _n<=1000
+sort hours 
+winsor2 hours, cuts(1 99) gen(hours_w)
+order hours_w, after(hours)
+
+********************************************************************************
+*134. extremes
+
+ssc install extremes
+sysuse citytemp4, clear
+extremes tempjuly
+
+********************************************************************************
+*135. Save data to .tex 
+
+ssc install texsave
+sysuse auto2, clear
+keep make price mpg weight
+keep if _n<7
+texsave using "auto.tex", replace
+
+********************************************************************************
+*137. For loops
+
+forvalues i = 5/8 {
+	di "`i'"
+}
+
+
+foreach i in 5 6 7 8 {
+	di "`i'"
+}
+
+local loc 5 6 7 8
+foreach i in `loc' {
+	di "`i'"
+}
+
+global loc2 5 6 7 8
+foreach i in $loc2 {
+	di "`i'"
+}
+
+foreach i of local loc {
+	di "`i'"
+}
+
+foreach i of global loc2 {
+	di "`i'"
+}
+
+sysuse auto2, clear
+foreach i of varlist _all {
+	sum `i'
+}
+
+********************************************************************************
+*138. Create new variable based on value label of another variable
+
+sysuse auto2, clear
+keep rep78
+
+gen rep = rep78
+
+decode rep78, gen(rep2)
+
+********************************************************************************
+*139. Sorting of string and numeric variables with missing values
+
+sysuse auto2, clear
+gen rep_numeric = rep78
+decode rep78, gen(rep_string)
+keep rep_numeric rep_string
+keep if _n<=7
+sort rep_string
+sort rep_numeric
+
+********************************************************************************
+*140. Be careful when creating a new variable using conditional logic
+
+sysuse auto2, clear
+gen rep = rep78
+keep if _n<=7
+keep rep
+sort rep
+
+gen over3_try1 = rep>3 
+
+gen over3_try2 = rep>3 & !missing(rep)
+
+gen over3_try3 = rep>3 if !missing(rep)
 
 
 
