@@ -40,7 +40,7 @@ description: Todd Jones Research
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf) Reject and resubmit, AEJ: Economic Policy.
 
-"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) Revised and resubmitted to Labour Economics.
+"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) Revise and resubmit at Labour Economics.
 
 "Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)). [Link to paper.](/papers/Cheaper_by_the_Dozen_most_recent.pdf)
 
