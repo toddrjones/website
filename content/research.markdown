@@ -56,7 +56,7 @@ description: Todd Jones Research
 
 "Datasets in Applied Microeconomics."
 
-"Rethinking Wins Above Replacement in Baseball" (with [Ezra Karger](https://ezrakarger.com/).
+"Rethinking Wins Above Replacement in Baseball" (with [Ezra Karger](https://ezrakarger.com/)).
 
 "The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/) and [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/)).
 
