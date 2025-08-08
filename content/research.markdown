@@ -48,9 +48,19 @@ description: Todd Jones Research
 
 ## WORKS IN PROGRESS
 
+"Social Substitution?: Time Use Responses to Increased Time Alone" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
+
+"Conferences and Coauthors" (with [Ezra Karger](https://ezrakarger.com/)).
+
+"The Morphology of Crime" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Ezra Karger](https://ezrakarger.com/)).
+
+"Datasets in Applied Microeconomics."
+
+"Rethinking Wins Above Replacement in Baseball" (with [Ezra Karger](https://ezrakarger.com/).
+
 "The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/) and [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/)).
 
-The Social Substitution Effect: Time Use Responses to Increased Time Alone (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
+"Outcomes of Ph.D. Economists" (with [Ezra Karger](https://ezrakarger.com/)).
 
 ## BOOKS
 
