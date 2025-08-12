@@ -13,6 +13,8 @@ description: Todd Jones Research
 
 
 ## PUBLICATIONS
+"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) Accepted, Labour Economics.
+
 "The Academic Origins of Economics Faculty" (with Arielle Sloan), 2024, Journal of Economic Education, 55(4), 434-454. [Link to paper](/papers/PhD_Origins_most_recent.pdf)
 
 "Parental and Student Time Use Around the Academic Year" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)), 2024, Journal of Economic Behavior and Organization, 224:66-110. [Link to paper.](https://www.sciencedirect.com/science/article/pii/S0167268124001598)
@@ -39,8 +41,6 @@ description: Todd Jones Research
 ## WORKING PAPERS 
 
 "School and Crime" (with [Ezra Karger](https://ezrakarger.com/)). [Link to paper.](/papers/School_Crime_most_recent.pdf) Reject and resubmit, AEJ: Economic Policy.
-
-"First Generation College Students and Peer Effects" (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). [Link to IZA working paper.](https://docs.iza.org/dp16198.pdf) Revised and resubmitted to Labour Economics.
 
 "Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children" (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)). [Link to paper.](/papers/Cheaper_by_the_Dozen_most_recent.pdf)
 
