@@ -71,7 +71,7 @@ description: Todd Jones Research
 
 "Taking Advanced Placement Courses but Not the Exam" (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home) and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2020. Metro Atlanta Policy Lab for Education, Georgia Policy Labs. [Link to policy brief](https://gpl.gsu.edu/publications/ap-exam-taking/).
 
-"Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020. Child and Family Policy Lab, Georgia Policy Labs. [Link to paper](https://gpl.gsu.edu/publications/post-secondary-financial-aid/).
+["Post-Secondary Financial Aid Foundational Report: 2013-14 to 2018-19," 2020.](https://gpl.gsu.edu/publications/post-secondary-financial-aid/) Child and Family Policy Lab, Georgia Policy Labs.
 
 ## DATA
 
