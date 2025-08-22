@@ -64,7 +64,7 @@ description: Todd Jones Research
 
 ## BOOKS
 
-["Quick Stata Tips."](https://www.toddrjones.com/quickstatatips/) [Link to book and accompanying .do file](https://www.toddrjones.com/quickstatatips/).
+["Quick Stata Tips."](https://www.toddrjones.com/quickstatatips/) [Link](https://www.toddrjones.com/quickstatatips/) to book and accompanying .do file.
 
 ## OTHER WRITING
 ["Moms lose significant sleep and free time during kids’ school year, new study finds"](https://theconversation.com/moms-lose-significant-sleep-and-free-time-during-kids-school-year-new-study-finds-205273) (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Jeffrey Swigert](https://jeffswigert.com/)), 2023. The Conversation.
