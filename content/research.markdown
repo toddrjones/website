@@ -48,7 +48,7 @@ description: Todd Jones Research
 
 ## WORKS IN PROGRESS
 
-"Social Substitution?: Time Use Responses to Increased Time Alone" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
+"Social Substitution?: Time Use Responses to Increased Workplace Isolation" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
 
 "Conferences and Coauthors" (with [Ezra Karger](https://ezrakarger.com/)).
 
