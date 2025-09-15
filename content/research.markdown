@@ -13,7 +13,7 @@ description: Todd Jones Research
 
 
 ## PUBLICATIONS
-["First Generation College Students and Peer Effects"](https://docs.iza.org/dp16198.pdf) (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). Accepted, Labour Economics.
+["First Generation College Students and Peer Effects"](https://www.sciencedirect.com/science/article/pii/S0927537125000922) (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). Forthcoming, Labour Economics.
 
 ["The Academic Origins of Economics Faculty"](/papers/PhD_Origins_most_recent.pdf) (with Arielle Sloan), 2024, Journal of Economic Education, 55(4), 434-454.
 
@@ -44,11 +44,11 @@ description: Todd Jones Research
 
 ["Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children"](/papers/Cheaper_by_the_Dozen_most_recent.pdf) (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
 
+["Social Substitution?: Time Use Responses to Increased Workplace Isolation"](https://www.nber.org/papers/w34239) (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
+
 "Paying for Prestige: Compensating Differentials in Faculty Job Choice" (with [Alex Bell](https://alexbell.net/)). Draft available upon request.
 
 ## WORKS IN PROGRESS
-
-"Social Substitution?: Time Use Responses to Increased Workplace Isolation" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
 
 "Conferences and Coauthors" (with [Ezra Karger](https://ezrakarger.com/)).
 
