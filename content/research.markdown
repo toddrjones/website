@@ -11,6 +11,15 @@ meta_img: image/image.png
 description: Todd Jones Research
 ---
 
+## WORKING PAPERS 
+
+["School and Crime"](/papers/School_Crime_most_recent.pdf) (with [Ezra Karger](https://ezrakarger.com/)). Reject and resubmit, AEJ: Economic Policy.
+
+["Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children"](/papers/Cheaper_by_the_Dozen_most_recent.pdf) (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
+
+["Social Substitution?: Time Use Responses to Increased Workplace Isolation"](https://www.nber.org/papers/w34239) (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
+
+"Paying for Prestige: Compensating Differentials in Faculty Job Choice" (with [Alex Bell](https://alexbell.net/)). Draft available upon request.
 
 ## PUBLICATIONS
 ["First Generation College Students and Peer Effects"](https://www.sciencedirect.com/science/article/pii/S0927537125000922) (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). Forthcoming, Labour Economics.
@@ -37,16 +46,6 @@ description: Todd Jones Research
 
 ["SigTree: A Microbial Community Analysis Tool to Identify and Visualize Significantly Responsive Branches in a Phylogenetic Tree"](https://www.sciencedirect.com/science/article/pii/S2001037017300132) (with [John Stevens](https://math.usu.edu/jrstevens/), Michael Lefevre, Balasubramanian Ganesan, and Bart Weimer), 2017, Computational and Structural Biotechnology Journal, 15:372-376. 
 * Developed [SigTree](https://cran.r-project.org/web/packages/SigTree/index.html), the corresponding R package (with [John Stevens](https://math.usu.edu/jrstevens/)) 
-
-## WORKING PAPERS 
-
-["School and Crime"](/papers/School_Crime_most_recent.pdf) (with [Ezra Karger](https://ezrakarger.com/)). Reject and resubmit, AEJ: Economic Policy.
-
-["Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children"](/papers/Cheaper_by_the_Dozen_most_recent.pdf) (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
-
-["Social Substitution?: Time Use Responses to Increased Workplace Isolation"](https://www.nber.org/papers/w34239) (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
-
-"Paying for Prestige: Compensating Differentials in Faculty Job Choice" (with [Alex Bell](https://alexbell.net/)). Draft available upon request.
 
 ## WORKS IN PROGRESS
 
