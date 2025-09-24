@@ -17,7 +17,7 @@ description: Todd Jones Research
 
 ["Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children"](/papers/Cheaper_by_the_Dozen_most_recent.pdf) (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
 
-["Social Substitution?: Time Use Responses to Increased Workplace Isolation"](https://www.nber.org/papers/w34239) (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)). Submitted. 
+["Social Substitution?: Time Use Responses to Increased Workplace Isolation"](https://www.nber.org/papers/w34239) (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)). Submitted.
 
 "Paying for Prestige: Compensating Differentials in Faculty Job Choice" (with [Alex Bell](https://alexbell.net/)). Draft available upon request.
 
