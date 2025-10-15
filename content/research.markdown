@@ -49,6 +49,8 @@ description: Todd Jones Research
 
 ## WORKS IN PROGRESS
 
+"Life in the First Year: How Parents Adjust After the Birth of a Child" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/)).
+
 "Conferences and Coauthors" (with [Ezra Karger](https://ezrakarger.com/)).
 
 "The Morphology of Crime" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Ezra Karger](https://ezrakarger.com/)).
