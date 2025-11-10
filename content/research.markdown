@@ -56,7 +56,7 @@ description: Todd Jones Research
 
 "The Morphology of Crime" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Ezra Karger](https://ezrakarger.com/)).
 
-"Datasets in Applied Microeconomics."
+"Datasets in Economics."
 
 "WAR, What Is It Good For? Rethinking Wins Above Replacement in Baseball" (with [Frank DiTraglia](https://ditraglia.com/) and [Ezra Karger](https://ezrakarger.com/)).
 
