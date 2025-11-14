@@ -56,8 +56,6 @@ description: Todd Jones Research
 
 "Datasets in Economics."
 
-"WAR, What Is It Good For? Rethinking Wins Above Replacement in Baseball" (with [Frank DiTraglia](https://ditraglia.com/) and [Ezra Karger](https://ezrakarger.com/)).
-
 "The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/) and [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/)).
 
 "Outcomes of Ph.D. Economists" (with [Ezra Karger](https://ezrakarger.com/)).
