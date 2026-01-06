@@ -37,7 +37,7 @@ description: Todd Jones Research
 ["Maxed Out: The Human Capital Effects of Larger Student Loan Limits"](http://jhr.uwpress.org/content/56/4/1113.short) (with [Jeffrey Denning](https://www.jeffdenning.com/)), 2021, Journal of Human Resources, 56(4):1113-1140. 
 
 ["College Credit on the Table? Advanced Placement Course and Exam Taking"](https://www.sciencedirect.com/science/article/pii/S0272775721000741) (with [Ishtiaque Fazlul](https://sites.google.com/view/ishtiaquefazlul/home) and [Jonathan Smith](https://sites.google.com/site/jonathansmithphd/)), 2021, Economics of Education Review, 84:102-155.
- 
+
 ["Do Peers Influence Occupational Preferences? Evidence from Randomly-Assigned Peer Groups at West Point"](https://www.sciencedirect.com/science/article/pii/S0047272720300189) (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)), 2020, Journal of Public Economics, 184:104-154.
 
 ["Are High-Quality PhD Programs at Universities Associated with More Undergraduate Students Pursuing PhD Study?"](https://www.tandfonline.com/doi/abs/10.1080/09645292.2019.1623177?journalCode=cede20) (with [Ronald Ehrenberg](https://courses.cit.cornell.edu/rge2/)), 2019, Education Economics, 27(5):451-471.
