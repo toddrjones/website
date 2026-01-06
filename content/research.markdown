@@ -22,7 +22,7 @@ description: Todd Jones Research
 "Paying for Prestige: Compensating Differentials in Faculty Job Choice" (with [Alex Bell](https://alexbell.net/)). Draft available upon request.
 
 ## PUBLICATIONS
-["First Generation College Students and Peer Effects"](https://www.sciencedirect.com/science/article/pii/S0927537125000922) (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)). Forthcoming, Labour Economics.
+["First Generation College Students and Peer Effects"](https://www.sciencedirect.com/science/article/pii/S0927537125000922) (with [Michael Kofoed](https://sites.google.com/site/michaelkofoed1/)), 2025, Labour Economics, 102768.
 
 ["The Academic Origins of Economics Faculty"](/papers/PhD_Origins_most_recent.pdf) (with Arielle Sloan), 2024, Journal of Economic Education, 55(4), 434-454.
 
