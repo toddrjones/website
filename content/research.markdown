@@ -53,8 +53,6 @@ description: Todd Jones Research
 
 "The Morphology of Crime" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Ezra Karger](https://ezrakarger.com/)).
 
-"Datasets in Economics."
-
 "The Effects of School and Non-school Resources on Student Outcomes" (with [Ezra Karger](https://ezrakarger.com/) and [Sarah Komisarow](https://sites.google.com/site/sarahkomisarow/)).
 
 "Outcomes of Ph.D. Economists" (with [Ezra Karger](https://ezrakarger.com/)).
