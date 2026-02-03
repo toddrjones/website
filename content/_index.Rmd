@@ -1,8 +1,8 @@
 ---
-date: "2026-03-02"
+date: "2026-02-02"
 description: Website of Todd R. Jones, Assistant Professor of Economics at Mississippi State University. 
 menu: main
-title: Website of Todd R. Jones
+title: Website of Todd R. Jones 
 ---
 
 I am an Assistant Professor of Economics at Mississippi State University, an [IZA](https://www.iza.org/) Research Fellow, a [CESifo](https://www.cesifo.org/en) Research Network Affiliate, and an Annenberg Institute (Brown University) [EdWorkingPapers](https://edworkingpapers.com/) Contributor. 
