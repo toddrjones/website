@@ -1,7 +1,7 @@
 ---
 title: 'Quick Stata Tips'
 author: Todd R. Jones
-date: '2023-11-30'
+date: '2026-02-03'
 slug: []
 categories: []
 tags:
