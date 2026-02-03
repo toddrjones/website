@@ -8,7 +8,7 @@ tags:
   - one tag
   - another tag
 meta_img: image/image.png
-description: Todd Jones Research
+description: Todd Jones Research 
 ---
 
 ## WORKING PAPERS 
@@ -30,7 +30,7 @@ description: Todd Jones Research
 
 ["Changes in Parental Gender Preference in the United States: Evidence from 1850-2019"](https://link.springer.com/article/10.1007/s00148-023-00957-x) (with [Matthew Millington](https://sites.google.com/view/matthewmillington) and [Joseph Price](https://economics.byu.edu/directory/joseph-p-price)), 2023, Journal of Population Economics, 36:3057--3070.
 
-["The Graduate School Origins of Finance Faculty"](https://www.sciencedirect.com/science/article/pii/S0927539823000099) (with [Haoyang Xiong](https://www.haoyangxiong.com/home)), 2023, Journal of Empirical Finance, 71:88-103. See below for data.
+["The Graduate School Origins of Finance Faculty"](https://www.sciencedirect.com/science/article/pii/S0927539823000099) (with [Haoyang Xiong](https://www.haoyangxiong.com/home)), 2023, Journal of Empirical Finance, 71:88-103. See below for the data.
 
 ["The Effects of Financial Aid Loss on Student Persistence and Graduation: A Multi-Dimensional Regression Discontinuity Approach"](https://direct.mit.edu/edfp/article/doi/10.1162/edfp_a_00337/97143/The-Effects-of-Financial-Aid-Loss-on-Persistence) (with [Daniel Kreisman](http://www.dkreisman.com/), [Ross Rubenstein](https://aysps.gsu.edu/profile/ross-rubenstein/), [Cynthia Searcy](https://aysps.gsu.edu/profile/cynthia-searcy/), and [Rachana Bhatt](https://www.usg.edu/cassie/about/staff_members)), 2022, Education Finance and Policy, 17(2):206-231.
 
