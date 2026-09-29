@@ -51,8 +51,6 @@ description: Todd Jones Research
 
 ## WORKS IN PROGRESS
 
-"The Role of Luck on Salary: Evidence from Major League Baseball" (with [Ezra Karger](https://ezrakarger.com/)).
-
 "The Morphology of Crime" (with [Benjamin Cowan](https://people.ses.wsu.edu/cowan/) and [Ezra Karger](https://ezrakarger.com/)).
 
 "Conferences and Coauthors" (with [Ezra Karger](https://ezrakarger.com/)).
