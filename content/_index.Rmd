@@ -11,6 +11,8 @@ My research interests are in applied microeconomics, including topics in educati
 
 I received a Ph.D. in Economics from Cornell University, and a Bachelors in Economics and Masters in Statistics from Utah State University. Before beginning my current position, I was a Postdoctoral Research Associate at Georgia State University's [Georgia Policy Labs](https://gpl.gsu.edu/). 
 
+I put together a list of 100+ free datasets useful for applied micro research, which you can find here (and contribute to!): [https://github.com/toddrjones/datasets](https://github.com/toddrjones/datasets).
+
 I enjoy making data visualizations; see some examples [here](/dataviz/). You can find my *Quick Stata Tips* book [here](/quickstatatips/).   
 
 ```{r, echo=FALSE, fig.align='center', out.width="20%", out.height="20%"}
