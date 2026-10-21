@@ -15,7 +15,7 @@ description: Todd Jones Research
 
 ["School and Crime"](/papers/School_Crime_most_recent.pdf) (with [Ezra Karger](https://ezrakarger.com/)). Reject and resubmit, AEJ: Economic Policy.
 
-["Forecasting the Economic Impacts of AI"](https://static1.squarespace.com/static/635693acf15a3e2a14a56a4a/t/69cbb9d509ada447b6d9013f/1774959061185/forecasting-the-economic-effects-of-ai.pdf) (with Ezra Karger, Otto Kuusela, Jason Abaluck, Kevin Bryan, Basil Halperin, Connacher Murphy, Phil Trammell, Matt Reynolds, Dan Mayland, Ria Viswanathan, Ananaya Mittal, Rebecca Ceppas de Castro, Josh Rosenberg, and Philip Tetlock).
+["Forecasting the Economic Impacts of AI"](https://static1.squarespace.com/static/635693acf15a3e2a14a56a4a/t/69cbb9d509ada447b6d9013f/1774959061185/forecasting-the-economic-effects-of-ai.pdf) (with Ezra Karger, Otto Kuusela, Jason Abaluck, Kevin Bryan, Basil Halperin, Connacher Murphy, Phil Trammell, Matt Reynolds, Dan Mayland, Ria Viswanathan, Ananaya Mittal, Rebecca Ceppas de Castro, Josh Rosenberg, and Philip Tetlock). Submitted.
 
 ["Cheaper by the Dozen: Parental Time Use and Returns to Scale in Raising Children"](/papers/Cheaper_by_the_Dozen_most_recent.pdf) (with [Ezra Karger](https://ezrakarger.com/) and [Valerie Michelman](https://sites.google.com/view/valeriemichelman)).
 
