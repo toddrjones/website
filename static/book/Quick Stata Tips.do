@@ -1,31 +1,31 @@
 
-*Code to accompany "Quick Stata Tips" version 2.0
-*by Todd Jones
+*Code to accompany "Quick Stata Tips" version 2.2
+*by Todd R. Jones
 
 ********************************************************************************
-*fre
+*1. fre
 ssc install fre
 sysuse auto2, clear
 tab foreign
 fre foreign
 
 ********************************************************************************
-*mdesc
+*2. mdesc
 ssc install mdesc
 sysuse lifeexp, clear
 mdesc
 
 ********************************************************************************
-*compare
+*5. compare
 sysuse auto2, clear
 compare mpg trunk
 
 ********************************************************************************
-*set scroll buffer size
+*6. set scroll buffer size
 set scrollbufsize 2048000
 
 ********************************************************************************
-*ereplace
+*7. ereplace
 sysuse auto2, clear
 *This next line doesn't work:
 replace mpg = max(mpg)
@@ -39,7 +39,7 @@ sysuse auto2, clear
 ereplace mpg = max(mpg)
 
 ********************************************************************************
-*r(table)
+*8. r(table)
 sysuse auto2, clear 
 reg trunk weight 
 matrix list r(table) 
@@ -47,29 +47,29 @@ local weight_lower_95ci = r(table)[5,1]
 di "`weight_lower_95ci'"
 
 ********************************************************************************
-*ssc hot
+*9. ssc hot
 ssc hot, n(100)
 
 ********************************************************************************
-*opacity
+*10. opacity
 sysuse sp500, clear 
 replace high = high+80 
 twoway (hist high, width(20) color(blue%50)) (hist low, width(20) color(red%50)), scheme(s1mono) legend(order(1 "Blue" 2 "Red"))
 
 ********************************************************************************
-*sort by, but don't group with
+*12. sort by, but don't group with
 sysuse census, clear
 *keep the least-populous state within each region, so sort by pop * within each region:
 bys region (pop): keep if _n==1
 
 ********************************************************************************
-*isid
+*14. isid
 sysuse auto2, clear
 isid foreign
 isid foreign make
 
 ********************************************************************************
-*texdoc
+*15. texdoc
 capture ssc install texdoc
 sysuse auto2, clear
 global spec1 "if foreign"
@@ -132,14 +132,14 @@ tex & Foreign & Not Foreign & Not foreign, rows 6+
 texdoc close
 
 ********************************************************************************
-*check if variable is constant within group
+*16. check if variable is constant within group
 bys group (var): gen a = var[1]==var[_N]
 tab a
 
 bysort group: assert var==var[1]
 
 ********************************************************************************
-*remove leading and trailing spaces
+*17. remove leading and trailing spaces
 clear all 
 input str12 str 
 "String A " 
@@ -149,7 +149,7 @@ end
 replace str = trim(str) 
 
 ********************************************************************************
-*group
+*18. group
 
 sysuse xtline1, clear 
 egen grp = group(day) 
@@ -157,7 +157,7 @@ egen grp = group(day)
 sort day
 
 ********************************************************************************
-*tempfiles
+*19. tempfiles
 
 sysuse auto2, clear
 tempfile a
@@ -172,7 +172,7 @@ use `a', clear
 merge m:1 id using `a'
 
 ********************************************************************************
-*control placement of new variable
+*21. control placement of new variable
 sysuse auto2, clear
 *create version of price in units of thousands
 gen price_k = price/1000, before(price)
@@ -181,13 +181,13 @@ gen price_k = price/1000, before(price)
 gen make_lower = lower(make), after(make)
 
 ********************************************************************************
-*substr
+*22. substr
 
 sysuse auto2, clear 
 *get the first two letters of the string 
 gen first = substr(make, 1, 2), after(make)
     ********************************************************************************
-*browse if
+*23. browse if
 
 sysuse auto2, clear
 *browse only the cars that begin with "A"
@@ -196,14 +196,14 @@ br if substr(make,1,1)=="A"
 br
 
 ********************************************************************************
-*sysuse
+*24. sysuse
 
 sysuse dir 
 *load one of them
 sysuse citytemp, clear
 
 ********************************************************************************
-*_n and _N
+*26. _n and _N
 
 sysuse auto2, clear
 keep rep78
@@ -218,7 +218,7 @@ gen N = _N
 bys rep78: gen group_N = _N
 
 ********************************************************************************
-*preserve
+*27. preserve
 
 sysuse auto2, clear
 *preserve the data to be used later
@@ -238,13 +238,13 @@ restore, not
 preserve
 
 ********************************************************************************
-*capture
+*28. capture
 sysuse auto2, clear
 capture restore, not
 preserve
 
 ********************************************************************************
-*tab1
+*29. tab1
 sysuse auto2, clear 
 *tabulate (separately) make, price, and mpg:
 tab1 make price mpg 
@@ -252,7 +252,7 @@ tab1 make price mpg
 tab1 *
 
 ********************************************************************************
-*statastates
+*30. statastates
 capture ssc install statastates 
 sysuse census, clear 
 keep state2 
@@ -260,29 +260,29 @@ statastates, abbreviation(state2) nogen
 replace state_name = strproper(state_name)
 
 ********************************************************************************
-*compress
+*31. compress
 sysuse auto2, clear 
 replace make = "This is a long string...." in 1 
 replace make = substr(make, 1, 6) 
 compress
 
 ********************************************************************************
-*quietly
+*32. quietly
 sysuse auto2, clear
 quietly reg trunk weight
 
 ********************************************************************************
-*set graphics off
+*33. set graphics off
 set graphics off
 set graphics on
 
 ********************************************************************************
-*undocumented and previously documented command
+*34. undocumented and previously documented command
 help undocumented
 help prdocumented
 
 ********************************************************************************
-*getcensus
+*35. getcensus
 ssc install getcensus 
 *replace XYZ w/ your key 
 global censuskey XYZ 
@@ -290,7 +290,7 @@ global censuskey XYZ
 getcensus B01003, year(2015) sample(5) geography(county) clear
 
 ********************************************************************************
-*graph at county level
+*36. graph at county level
 ssc install getcensus 
 *replace XYZ w/ your key 
 global censuskey XYZ 
@@ -306,7 +306,7 @@ destring county, replace
 maptile b01003_001e, geo(county2014) twopt(title(Population by County) legend(off)) fcolor(Blues)
 
 ********************************************************************************
-*anmimated map
+*37. anmimated map
 
 ssc install maptile 
 ssc install spmap 
@@ -326,7 +326,7 @@ forvalues i = 1914/1928 {
 *[Mac] Terminal - cd to dir, then: convert *.png a.gif
 
 ********************************************************************************
-*animated graph
+*38. animated graph
 sysuse uslifeexp, clear 
 forvalues i = 1900/1999 { 
 	scatter le_male le_female if year==`i', title(`i') scheme(s1mono) yscale(r(35 80)) xscale(r(40 80)) ylabel(40(10)80) xlabel(40(10)80) 
@@ -334,14 +334,14 @@ forvalues i = 1900/1999 {
 } 
 
 ********************************************************************************
-*mscatter
+*39. mscatter
 capture ssc inst mscatter 
 capture ssc inst palettes 
 sysuse sp500, clear 
 mscatter change close if inrange(change, -30, 30), msymbol(O) msize(7) sch(s1mono) over(change) colorpalette(viridis)
 
 ********************************************************************************
-*duplicates
+*40. duplicates
 sysuse auto2, clear
 keep if _n<15
 bys turn: keep if _n==1
@@ -356,21 +356,21 @@ duplicates r gear_ratio turn
 duplicates drop turn, force
 
 ********************************************************************************
-*notifications
+*41. notifications
 beep
 
 ssc install statapush
 help statapush
 
 ********************************************************************************
-*iterations
+*42. iterations
 local iterations = 1000
 forvalues i=1/`iterations' {
 	if mod(`i'/100, 1)==0 di "Iteration `i' of `iterations'" 
 }
 
 ********************************************************************************
-*timer
+*43. timer
 capture ssc install etime
 etime, start
 forvalues i=1/1000000 { 
@@ -394,21 +394,21 @@ forvalues i=1/1000000 {
 } 
 
 ********************************************************************************
-*loop over all variables
+*44. loop over all variables
 sysuse census, clear 
 	foreach var of varlist _all { 
 	rename `var' `var'_42 
 }
 
 ********************************************************************************
-*calculate total
+*45. calculate total
 
 sysuse auto2, clear  
 gen one = 1  
 egen total = total(one)
 
 ********************************************************************************
-*xtile
+*46. xtile
 sysuse auto2, clear 
 keep turn
 *quartiles 
@@ -417,7 +417,7 @@ xtile turn_quartile = turn, nq(4)
 xtile turn_decile = turn, nq(10)
 
 ********************************************************************************
-*remove elements from local
+*47. remove elements from local
 sysuse auto2, clear 
 ds 
 local vars `r(varlist)' 
@@ -427,7 +427,7 @@ local vars_new: list vars - remove_vars
 di "`vars_new'"
 
 ********************************************************************************
-*add elements to a macro
+*48. add elements to a macro
 local loc a b c 
 di "`loc'" 
 *add d & e 
@@ -441,7 +441,7 @@ global glo $glo y z
 di "$glo"
 
 ********************************************************************************
-*save value label to local
+*49. save value label to local
 sysuse auto2, clear 
 fre foreign
 local foreign_0: label (foreign) 0 
@@ -451,7 +451,7 @@ di "`foreign_1'"
 scatter price displacement if foreign==0, title(`foreign_0')
 
 ********************************************************************************
-*return
+*50. return
 sysuse auto2, clear 
 reg weight gear_ratio
 ereturn list, all 
@@ -461,26 +461,32 @@ creturn list
 di "`c(pi)'"
 
 ********************************************************************************
-*convert between real and string
+*51. convert between real and string with existing variable
+sysuse auto2, clear
+tostring turn, replace
+destring turn, replace
+
+********************************************************************************
+*52. convert between real and string when creating variable
 sysuse pop2000, clear
 keep if _n>2
 gen age = real(substr(agest, 1, 2)), after(agestr)
 gen age_string = string(age), after(age)
 
 ********************************************************************************
-*version control
+*53. version control
 *global output "/Users/me/Research/projectName/output/12-25-2023/"
 
 *graph export "${output}/a.png"
 
 ********************************************************************************
-*asgen
+*54. asgen
 capture ssc install asgen
 sysuse census, clear
 bys region: asgen weighted_medage = medage, weight(pop)
  
 ********************************************************************************
-*collapse
+*55. collapse
 sysuse census, clear
 gen N = 1
 collapse (mean) medage (sum) N, by(region)
@@ -489,7 +495,7 @@ sysuse census, clear
 collapse (mean) medage [aweight=pop], by(region)
 
 ********************************************************************************
-*seq
+*56. seq
 capture ssc install seq
 sysuse auto2, clear
 *repeat 1 2 3
@@ -498,7 +504,7 @@ seq rep1, from(1) to(3)
 seq rep2, from(1) to(3) block(2)
 
 ********************************************************************************
-*add a leading zero to a number
+*57. add a leading zero to a number
 clear all 
 set obs 15 
 gen fips = _n 
@@ -506,7 +512,7 @@ tostring fips, gen(fips2)
 replace fips2 = "0" + fips2 if strlen(fips2)==1
 
 ********************************************************************************
-*main effects and interaction terms
+*58. main effects and interaction terms
 sysuse auto2, clear
 gen b = _n<10
 gen b_weight = b*weight
@@ -517,7 +523,7 @@ reg price i.b weight b#c.weight
 reg price b##c.weight
 
 ********************************************************************************
-*keepusing
+*59. keepusing
 webuse nhanes2, clear
 tempfile nh
 save `nh'
@@ -526,7 +532,7 @@ use sampl houssiz using `nh', clear
 merge 1:1 sampl using `nh', keepusing(height weight)
 
 ********************************************************************************
-*geodist
+*60. geodist
 
 capture ssc install geodist
 clear
@@ -537,7 +543,7 @@ end
 geodist 42.366570 -71.06186 lat lon, gen(dist) miles
 
 ********************************************************************************
-*geonear
+*61. geonear
 
 capture ssc install geonear
 clear
@@ -555,43 +561,43 @@ drop *2
 geonear n la lo using `a', n(n2 la2 lo2)
 
 ********************************************************************************
-*georoute
+*62. georoute
 ssc install georoute
 help georoute
 
 ********************************************************************************
-*heatplot
+*63. heatplot
 capture ssc install heatplot
 webuse nhanes2, clear
 heatplot weight height
 
 ********************************************************************************
-*colorvar
+*64. colorvar
 sysuse auto2, clear
 scatter weight length, colorvar(turn)
 
 ********************************************************************************
-*binscatterhist
+*65. binscatterhist
 capture ssc install binscatterhist
 sysuse auto2, clear
 binscatterhist weight length, hist(weight length) ymin(1100)  xhistbarheight(30) yhistbarheight(13)
 
 ********************************************************************************
-*alluvial
+*66. alluvial
 ssc install alluvial
 *example from package tutorial
 sysuse nlsw88.dta, clear
 alluvial race married collgrad smsa union
 
 ********************************************************************************
-*sankey
+*67. sankey
 capture ssc install sankey
 *example from package tutorial
 use "https://github.com/asjadnaqvi/stata-sankey/blob/main/data/sankey2.dta?raw=true", clear
 sankey value, from(source) to(destination) by(layer) noval showtot palette(CET C6) laba(0) labpos(3) labg(-1) offset(10)
 
 ********************************************************************************
-*readhtml
+*68. readhtml
 capture net install readhtml, from(https://ssc.wisc.edu/sscc/stata/)
 capture ssc install statastates 
 capture ssc install maptile
@@ -608,7 +614,7 @@ rename state_abbrev state
 maptile forest, geo(state) fcolor(Greens) twopt(title("Percent Forest"))
 
 ********************************************************************************
-*Choose which variables and observations to load
+*69. Choose which variables and observations to load
 sysuse auto2, clear
 tempfile a
 save `a'
@@ -616,7 +622,7 @@ use make turn using `a' in 2/9
 use `a' if length>200
 
 ********************************************************************************
-*datasets from internet
+*70. datasets from internet
 help dta_manuals
 
 help q_base
@@ -624,7 +630,7 @@ help q_base
 use https://www.stata-press.com/data/r18/apple.dta
 
 ********************************************************************************
-*omit group from regression 
+*71. omit group from regression 
 sysuse auto2, clear
 *view values of rep78
 fre rep78
@@ -634,7 +640,7 @@ reg mpg i.rep78
 reg mpg ib3.rep78
 
 ********************************************************************************
-*fillin
+*72. fillin
 clear all
 input year str1 state value 
 1 "A" 6
@@ -645,7 +651,7 @@ end
 fillin year state
 
 ********************************************************************************
-*levelsof
+*73. levelsof
 sysuse auto2, clear
 levelsof mpg
 levelsof trunk
@@ -664,7 +670,7 @@ levelsof make
 levelsof make, clean
 
 ********************************************************************************
-*increment local
+*74. increment local
 local b = 1
 local b = `b' + 1
 di "`b'"
@@ -674,37 +680,37 @@ local ++a
 di "`a'"
 
 ********************************************************************************
-*labelbook
+*75. labelbook
 sysuse auto2, clear
 labelbook
 
 ********************************************************************************
-*twoway
+*76. twoway
 sysuse auto2, clear
 twoway scatter mpg length || ///
 	   scatter mpg displacement, ///
 	   scheme(s1color) legend(label(1 "Length") label(2 "Displacement"))
 
 ********************************************************************************
-*rowtotal
+*77. rowtotal
 sysuse auto2, clear
 gen sum1 = price + mpg + rep78
 egen sum2 = rowtotal(price mpg rep78)
 egen sum3 = rowtotal(price-rep78)
 
 ********************************************************************************
-*random numbers
+*78. random numbers
 sysuse auto, clear
 gen r=runiform()
 
 ********************************************************************************
-*set seed
+*79. set seed
 sysuse auto, clear
 set seed 42
 gen r=runiform()
 
 ********************************************************************************
-*length of string
+*80. length of string
 local loc "How long is this?"
 local loc_words : word count `loc'
 di "`loc_words'"
@@ -713,7 +719,7 @@ local loc_chars = strlen("`loc'")
 di "`loc_chars'"
 
 ********************************************************************************
-*clonevar
+*81. clonevar
 sysuse auto2, clear
 *this does not create an exact copy:
 gen foreign2 = foreign
@@ -721,7 +727,7 @@ gen foreign2 = foreign
 clonevar foreign3 = foreign
 
 ********************************************************************************
-*Label values based on value labels of another variables
+*82. Label values based on value labels of another variables
 sysuse auto2, clear
 set seed 1
 gen new = round(runiform()*4+1)
@@ -731,19 +737,19 @@ ssc install fre
 fre new
 
 ********************************************************************************
-*find do files
+*83. find do files
 ssc install find
 ssc install rcd
 rcd "/Users/Todd/Google Drive": find *.do, match(sysuse auto2) show
 
 ********************************************************************************
-*commas in large numbers
+*84. commas in large numbers
 sysuse voter, clear
 format pop %15.0fc
 scatter pop frac, scheme(s1mono)
 
 ********************************************************************************
-*highlight selected bars in bar chart
+*85. highlight selected bars in bar chart
 sysuse auto2, clear
 keep if price>=10000
 
@@ -752,7 +758,7 @@ separate price, by(make=="Linc. Continental")
 graph hbar (asis) price0 price1, nofill over(make, sort(price) desc) legend(off) scheme(s1color)
 
 ********************************************************************************
-*keeporder
+*86. keeporder
 ssc install keeporder
 
 *old way
@@ -765,7 +771,7 @@ sysuse auto2, clear
 keeporder foreign rep78 make
 
 ********************************************************************************
-*program/function
+*87. program/function
 capture program drop s_pr
 program s_pr, rclass
 args x y
@@ -778,7 +784,7 @@ sysuse auto2, clear
 s_pr length turn
 
 ********************************************************************************
-*gsort 
+*88. gsort 
 sysuse auto2, clear
 *sort ascending
 gsort mpg
@@ -786,7 +792,7 @@ gsort mpg
 gsort -mpg
 
 ********************************************************************************
-*sort descending with bysort
+*89. sort descending with bysort
 
 sysuse auto2, clear
 *doesn't work:
@@ -802,14 +808,14 @@ bys foreign (turn_rev): gen n=_n
 drop turn_rev
 
 ********************************************************************************
-*moreobs
+*90. moreobs
 ssc install moreobs
 sysuse auto2, clear
 moreobs 10
 sort make
 
 ********************************************************************************
-*coefplot
+*91. coefplot
 sysuse auto2, clear
 reg price mpg length displacement weight trunk
 coefplot, drop(_cons) vertical
@@ -825,25 +831,19 @@ foreach var in headroom trunk weight length turn displacement {
 coefplot (est1\est2\est3\est4\est5\est6), drop(_cons) xline(0)
 
 ********************************************************************************
-*expand
+*92. expand
 sysuse auto2, clear
 expand 2
 sort make
 
 ********************************************************************************
-*destring and tostring
-sysuse auto2, clear
-tostring turn, replace
-destring turn, replace
-
-********************************************************************************
-*nvals
+*93. nvals
 sysuse auto2, clear
 egen headroom_unique_values = nvals(headroom)
 sum headroom_unique_values
 
 ********************************************************************************
-*regsave
+*94. regsave
 capture ssc install regsave
 tempfile coefficients
 sysuse auto2, clear
@@ -853,13 +853,13 @@ regsave using `coefficients', replace
 use `coefficients', clear
 
 ********************************************************************************
-*access certain rows of a variable
+*95. access certain rows of a variable
 sysuse auto2, clear
 gen lag_length = length[_n-1], after(length)
 gen lead_length = length[_n+1], after(lag_length)
 
 ********************************************************************************
-*refer to observations by row number
+*96. refer to observations by row number
 sysuse auto2, clear
 *a single observation
 replace trunk = 1 in 1
@@ -867,7 +867,7 @@ replace trunk = 1 in 1
 replace trunk = 0 in 2/5
 
 ********************************************************************************
-*colorpalette
+*97. colorpalette
 capture ssc inst mscatter 
 capture ssc inst palettes 
 sysuse sp500, clear 
@@ -1281,6 +1281,93 @@ gen over3_try2 = rep>3 & !missing(rep)
 
 gen over3_try3 = rep>3 if !missing(rep)
 
+********************************************************************************
+*141. Force graph to include values in axis
+
+sysuse auto2, clear
+
+scatter headroom trunk
+
+scatter headroom trunk, yscale(range(0 5)) ylabel(0(1)5) 
+
+********************************************************************************
+*142. coeflegend
+
+sysuse auto2, clear
+
+reg price mpg i.foreign##i.rep78, coeflegend
+
+********************************************************************************
+**#143. encode
+
+sysuse auto2, clear
+
+encode make, gen(make2)
+drop make
+rename make2 make 
+
+********************************************************************************
+**#144. Refer to value label of numeric variable 
+
+sysuse auto2, clear
+local vlab: value label foreign 
+gen domestic = foreign == "Domestic":`vlab'
+
+********************************************************************************
+**#145. Bookmarks
+
+********************************************************************************
+*146. .gph File
+
+sysuse auto2, clear
+
+scatter price weight
+
+graph save "auto2_scatter.gph", replace
+
+clear all
+
+use "auto2_scatter.gph"
+
+********************************************************************************
+*149. which
+
+which distinct
+which estout
+which ftools
+which unique
+
+********************************************************************************
+*150. ado update
+
+ado update
+ado update, update 
+
+********************************************************************************
+*151. require
+
+ssc install require
+require estout>=3.34
+ado update estout, update
+require estout>=3.34
+	
+********************************************************************************
+*152. joinby 
+
+clear all
+set obs 6
+gen id = round(_n/2)
+gen a_value = _n*10
+tempfile a
+save `a'
+
+clear all
+set obs 5
+gen id = round(_n/2)
+replace id = 20 if id==3
+gen b_value = _n*10
+
+joinby id using `a', unmatched(both)
 
 
 
