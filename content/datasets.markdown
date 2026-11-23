@@ -11,7 +11,7 @@ meta_img: image/image.png
 description: Free datasets for applied micro research
 ---
 
-I put together a list of 100+ free datasets for social science research, spanning a large number of topics.
+I put together a list of 150+ free datasets for social science and economics research, spanning a large number of topics.
 
 I hope it's useful for students, researchers, and anyone looking for interesting data to explore.
 
